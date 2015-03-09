@@ -1,0 +1,737 @@
+/*header previously had a margin-bottom of -110px */
+
+/* NAV **************************************************/
+
+/*.navbar-inverse{
+	text-shadow: 0 -1px 0 rgba(0,0,0,.15);
+	background-color: #563d7c;
+	border-color: #463265;
+	box-shadow: 0 1px 0 rgba(255,255,255,.1);
+}*/
+
+/* END NAV **********************************************/
+
+.jumbotron{
+	background:#47a3da;
+	color:#fff;
+	-webkit-border-radius:0px;
+	-moz-border-radius:0px;
+	border-radius:0px;
+	margin-bottom:0px;
+}
+
+.jumbotron h1,
+.jumbotron h2,
+.jumbotron h3,
+.jumbotron h4,
+.jumbotron h5,
+.jumbotron h6{
+	color:#fff;
+}
+
+.jumbotron .panel h1,
+.jumbotron .panel h2,
+.jumbotron .panel h3,
+.jumbotron .panel h4,
+.jumbotron .panel h5,
+.jumbotron .panel h6{
+	color:#146582;
+}
+
+
+#foot-sec .jumbotron{
+	margin-bottom:0px;
+}
+.jumbotron h1{
+	font-size:44px;
+
+}
+.jumbotron .list-unstyled{
+	font-size:16px;
+	line-height:26px !important;
+	font-weight:600;
+}
+.jumbotron .regular {
+	font-size:14px;
+}
+.jumbotron label {
+	font-size:14px;
+}
+
+.jumbotron .panel{
+	color:#333;
+}
+
+.jumbotron span.standout {
+	font-weight: 400;
+	text-shadow: 0 2px 0 rgba(255, 255, 255, 0.5);
+}
+
+
+
+.standout {
+	font-size: 1.7em;
+	font-weight: 500;
+	color: #e04a40 !important;
+
+}
+
+.page-header h1, .jumbotron h2.headline {
+	font-size: 44px;
+	line-height: 60px;
+}
+
+.page-header h2 {
+	line-height: 1.3em ;
+}
+
+/*.page-header {
+	line-height: 1.5em;
+}*/
+
+.height-level {
+	min-height: 70px;
+}
+ 
+div.img-100 {
+	min-height: 100px;
+}
+
+.conclusion {
+	font-size: 1.9em;
+	
+	margin-top: 30px;
+	font-style: italic;
+	font-weight: 700;
+	text-decoration: underline;
+}
+
+.separator {
+	margin: 30px inherit;
+}
+	  
+.page-header-custom{
+	margin-top:20px;
+}
+/* more comments, read more, minor calls to action after blocks of text */ 
+.more {
+	margin-top:1.5em;
+}
+
+.dim {
+	font-size:0.7em;
+	text-align: right;
+}
+
+footer {
+	padding-top: 20px;
+}
+
+.subtitle {
+	margin-bottom: 20px;
+}
+
+/*section#lead h1 {
+	font-size: 44px;
+	color: #dc352a;
+}*/
+
+section#lead h1, h2, .jumbotron h2 {
+	margin-bottom: 0.8em;
+}
+
+/***** SECTIONS *****************************************/
+
+header{
+	padding-top:40px;
+	padding-bottom:40px;
+	margin-bottom:-70px;
+}
+
+section {	
+	margin-bottom:40px;
+	padding-top:40px;
+	margin-top:-40px;
+	min-height:350px;
+	width:100%;
+	min-width:100%;
+	margin-left: 0;
+	margin-right: 0;
+}	
+
+section#clinch {
+	min-height: 100px;
+}
+
+
+/***** END SECTIONS *************************************/
+
+/***** FOOTER *****************************************/
+
+footer ul {
+	list-style:none;
+}
+
+footer address, footer ul footer p.opening-hours {
+	padding-left: 12px;
+}
+
+footer li {
+	padding-bottom: 6px;
+}
+
+footer h4 {
+	text-align:left;
+	font-weight: bold;
+}
+
+footer i {
+	font-size: 25px;
+	line-height: 25px;
+}
+
+#social ul {
+	padding-top: 20px;
+	min-height: 50px;
+}
+
+#social li {
+	padding: 10px;
+}
+
+/***** END FOOTER **************************************/
+
+/***** MEDIA QUERIES **********************************/
+@media (max-width: 768px) {
+		.container{
+			padding-right:20px;
+			padding-left:20px;
+		}
+
+	}
+
+/****** END MEDIA QUERIES ******************************/
+ 
+/***** WEB FORMS ***************************************/
+.meeting-sell li, .meeting-sell h3, .meeting-sell h4 {
+	margin-bottom: 0.8em;
+}
+
+#meeting li {
+	text-align: left;
+	padding-bottom: 1em;
+}
+
+
+/****** MEET-FORM **********************************/
+	form#meet-form {
+		padding: 4% 4% 10%;
+		background: #52bad5;
+		border: 1px #b94a48;
+		border-radius: 8px;
+		box-shadow: 10px 10px #50bfa4;
+		margin-bottom: 30px;
+	}
+
+/****** END MEET-FORM ******************************/
+
+/****** BUSINESS-BUILDER ***************************/
+		div#bb-form {
+		min-height: 500px;
+		padding: 4% 4% 10%;
+		background: #52bad5;
+		border: 1px #b94a48;
+		border-radius: 8px;
+		box-shadow: 10px 10px #50bfa4;
+		margin-bottom: 30px;
+	}
+
+/****** END BUSINESS-BUILDER ***********************/
+
+/****** END WEB FORMS ******************************/
+div.marketing p:last-of-type{
+	margin-bottom: 20px;
+}
+
+/****** TESTIMONIALS STYLING ***********************/
+
+section#testimonials{
+	margin-top:20px;
+}
+
+blockquote {
+	width: 90%;
+	margin: auto;
+}
+
+/* WORK IN PROGRESS
+blockquote p:first-of-type:before {
+	font-size: 35px;
+	font-style: italic;
+	color: #999999;
+	display: inline;
+	content:"\201C";
+}*/
+
+blockquote.testimonial>small {
+	margin-top: 10px;
+	font-size: 0.9em;
+	float: right;
+	font-weight: bold;
+	font-style: italic;
+	color: #555555;
+}
+
+.company:before {
+	content: " - " ;
+}
+.company {
+	font-weight: normal;
+}
+
+
+/****** END TESTIMONIALS STYLING **********************/
+
+/* CTA STYLING */ 
+
+.btn {
+	letter-spacing: 3px;
+	font-weight: bold;
+
+}
+
+section#call-to-action {
+	margin: 20px 0;
+	background: #47a3da;
+	color: #fff;
+	min-height: 0;
+	padding: 20px 0;
+}
+
+/* END CTA STYLING*/
+
+
+/**** FONTS *********************************************************/
+
+body{
+	font-family: 'Open Sans','Comfortaa', sans-serif;
+}
+
+h1, h2, h3, h4, h5, h6 {
+		font-family: 'Open Sans', cursive;
+}
+
+
+/**** END FONTS *****************************************************/
+
+
+
+/**** FONT STYLING: COLOURS, SIZES & WEIGHTS *******************************************/
+.phone {
+	color: #e04a40;
+}
+nav .phone {
+	font-size: 1.5em;
+	font-weight: bold;
+	letter-spacing: 2px;
+}
+
+.undecided{
+	font-size:16px;
+	font-weight:200;
+	line-height:1.4;
+}
+
+@media (min-width:768px){
+	.undecided{
+		font-size:21px;
+	}
+}
+
+
+section#clinch p{
+	margin-bottom: 20px;
+	font-size: 21px;
+	font-weight: 400;
+	line-height: 2.5;
+}
+
+
+/**** END FONT SIZES *************************************************/
+
+
+/**** FONT COLOURS ***************************************************/
+
+
+/**** END FONT COLOURS ***********************************************/
+
+
+/**** LAYOUT, DIV, SECTION COLOURS ***********************************/
+
+
+section.altcolor1 {
+	background-color: #d4725f;
+	color: #f3f3f3;
+}
+
+section.altcolor2 {
+	background-color: #50bfa4;
+	color: #f9f9f9;
+	padding-bottom: 40px;
+}
+
+
+/**** END COLOURS ****************************************************/
+
+/**** LAYOUT *********************************************************/
+/**** MARGINS & PADDING ETC ******************************************/
+
+nav .phone {
+	display: inline-block;
+	vertical-align: middle;
+	margin-right: 1.3em;
+}
+
+.icon-phone {
+	margin-right: 6px;
+}
+
+
+/**** END MARGINS & PADDING *******************************************/
+
+/**** NAVBAR ***********************************************************/
+
+.navbar-brand {
+	padding-top:0;
+	padding-bottom:0;
+}
+
+.nav >li >a {
+	padding: 15px 10px;
+}
+
+.navbar-right {
+	padding-right: 10px;	
+}
+
+@media (min-width: 768px) and (max-width: 1200px) {
+.navbar-right {
+	clear: both;
+	float:none;
+	margin: 0 auto;
+}
+}
+/**** NAVBAR ***********************************************************/
+
+/**** VIDEO ***********************************************************/
+/*#video-container {
+	max-height: 500px;	
+}*/
+
+.fluid-width-video-wrapper {
+	width: 100%;
+	position: relative;
+	padding: 0;
+	padding-top: 50%;
+}
+.vendor {
+	margin-bottom: 0px;
+}
+
+.container-video {
+	width: 100%;
+	min-width: 100%;
+	position: relative;
+	padding: 0;
+	height: auto;
+}
+
+.fluid-width-video-wrapper iframe, 
+.fluid-width-video-wrapper object, 
+.fluid-width-video-wrapper embed {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	border:0px;
+}
+
+.video-well.well{
+	-webkit-border-radius:0px;
+		-moz-border-radius:0px;
+			border-radius:0px;
+}
+
+/***** END VIDEO ****************************************************/
+.img-holder {
+	text-align: center;
+}
+
+.img-holder>img {
+	margin: inherit auto;
+}
+
+/*.img-row {
+	display: inline-block;
+	vertical-align: middle;
+}
+
+@media (min-width: 993px) {
+	.img-responsive {
+		padding-top: 50%;
+}}
+
+@media {max-width: 992px} {
+	.img-responsive {
+		padding-top:inherit;
+	}
+}*/
+
+.marketing {
+	margin-bottom: 20px;
+}
+
+div.img-row {
+    display: flex;
+    justify-content: center;
+}
+
+/*
+#float-form {	
+	position: fixed;
+	top: 44px;
+	right: 4px;
+}
+*/
+
+/**** TO DO: work on formatting floating form ****************************/
+
+/*
+	@media (max-width: 1200px) {
+		#float-form {
+			display: hidden;
+		}
+	}
+*/
+
+.clinch {
+	margin: 30px inherit;
+}
+
+/**** TO DO: ***************************************************************/
+
+.list-header {
+	margin-top: 0;
+}
+.list-header h2 {
+	font-weight: 600;
+	text-shadow: 2px 2px 10px #f3f3f3;
+}
+
+p.list-item, li.list-item {
+	color: #f7f7f7;
+	list-style:none;
+	min-height: 57px;
+	font-size: 18px;
+}
+
+p.list-item {
+	text-align: left;	
+}
+#bubble {
+	margin-top: 40px;
+	padding: 10px;
+	margin-bottom: 20px;
+	background-color: #f7f7f7;
+	border: none;
+	border-radius: 25px;
+}
+
+#bubble h3 {
+	padding:0;
+	margin: 0;
+}
+
+
+
+.allcaps {
+	text-transform: uppercase;
+}
+
+/* TO DO: CATEGORIZE THIS STYLING APPROPRIATELY **/
+
+/* CONTACT PAGE **********************************/
+
+/* MENU STYLING **********************************/
+
+.inline-list{
+	-webkit-padding-start: 0;
+}
+
+.inline-list li {
+	display: inline-block;
+	list-style: none;
+	text-decoration: none;
+	padding-left: 10px;
+	padding-right: 10px;
+}
+
+.inline-list {
+	font-size: 1.2em;
+}
+
+
+/* END MENU STYLING ******************************/
+
+/* ADDRESS INFO **********************************/
+
+.office-info h3, .office-info p, .office-info li{
+	margin-top: 10px;
+	margin-bottom: 20px;
+}
+
+.office-info h3, .office-info h4 {
+	font-weight: 500;
+}
+
+
+/* END ADDRESS INFO ******************************/
+
+
+
+footer a:hover, .inline-list a:hover, a.header-link:hover {
+	text-decoration: none;
+	font-size: 1.2em;
+	color: #b94a48;
+}
+
+.no-jumbo{
+	padding-top: 100px;
+}
+
+section#lead-legal {
+	min-height: 150px
+}
+
+h3.section-head {
+	margin-bottom: 2em;
+}
+
+div.caption {
+	min-height: 250px;
+}
+
+a.header-link {
+	color:#f3f3f3;
+	font-weight: 600;
+}
+
+#bb-image {
+
+}
+
+#bb-imagebg {
+	background-color: #f7f7f7;
+	max-height: 500px;
+}
+
+
+/*EXIT POPUP ****************************************************/
+
+#exitpopup
+	{
+		text-align:center;
+	}
+
+#exitpopup h1
+	{
+		margin-top:0px;
+		padding-top:0px;		
+	}	
+	
+#exitpopup p
+	{
+		text-align:left;
+	}
+
+/* END POP UP ***************************************************/
+
+/* TEAM *********************************************************/
+
+.team-row {
+	margin-bottom: 20px;
+}
+
+/* END TEAM *****************************************************/
+
+/* SOCIAL MEDIA BANNER ******************************************/
+	section#social-banner {
+		min-height: 0;
+		padding: 20px 0;
+	}
+
+	section#social-banner li{
+		min-height: 0;
+		padding: 0 15px;
+	}
+	
+	section.altcolor1 nav{
+		width: 50%;
+		margin: 0 auto;
+	}
+	
+	section.altcolor1 nav ul{
+		width: 100%;
+	}
+	
+	section.altcolor1 nav ul, section.altcolor1 nav li {
+		display: inline-block;
+	}
+	
+	section.altcolor1 li {
+		padding: 0 auto;	
+	}
+	
+	section.altcolor1 nav i{
+		font-size:50px;
+		color: #f3f3f3;
+	}
+
+/* END SOCIAL MEDIA BANNER **************************************/
+
+
+/* these need to go onto left and right columns to center text and images, 
+however must be careful not to clash with other classes and affect layout */
+
+	.vertalign {
+	  	float:none !important;
+		display:inline-block !important;
+		vertical-align:middle !important;
+		margin-right:-4px;
+}
+
+/* add here new class name for partcular buttons across the site to give space */
+
+.btn-space  {
+	margin-top: 30px;
+}
+
+
+/*add margin: 0 auto; to images to achieve centering*/
+
+.img-responsive {
+	float: none;
+	margin: 0 auto;
+}
+
+.img-mobile {
+	max-height:200px;
+	margin-top: 40px;
+	margin-bottom: 20px;
+}
+
+.team-img {
+	max-height: 250px;
+}
+/* possibly center text*/
