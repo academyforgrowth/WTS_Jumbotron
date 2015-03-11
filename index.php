@@ -548,9 +548,8 @@ include 'admin/var.php';
         
         <div class="container-fluid">
             <p class="pull-right dim"><?php echo $company_name; ?><br />
-            Registered in Country: #00000000<br />
-            &copy; <?php echo $company_name; ?> &copy;Academy for Growth, 2009 to present.<br />
-            Site by Academy For Growth Ltd</p>
+            Registered in <?php echo $country; ?>: <?php echo $reg; ?><br />
+            &copy; <?php echo $company_name; ?> &amp; Academy for Growth Ltd, 2008 to <?php echo date("Y"); ?>.<br /></p>
         </div>
     </footer>
         
