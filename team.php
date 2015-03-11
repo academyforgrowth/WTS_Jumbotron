@@ -1,3 +1,9 @@
+<?php  
+
+include 'admin/var.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>

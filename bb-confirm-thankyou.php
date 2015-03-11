@@ -1,11 +1,17 @@
+<?php  
+
+include 'admin/var.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>Testimonials | Company Name</title>
+    <title>Thank You | Company Name</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Company Name are accountants in Location. Here are just a few of the testimonials written by business clients & customers in our area about the service they receive. Call today on 0123 456 789. There's always room for one more happy customer.">
+    <meta name="description" content="The Business Builder Newsletter is a regular publication of Company Name. Company Name are accountants in Location. Call us on 0123 456 789 to ask us what we can do for your small business">
     <!-- INCLUDES -->
     <!-- Latest compiled and minified CSS BS 3.0. latest minifined--> 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -17,8 +23,8 @@
     <!-- FontAwesome icons -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <!--[if lt IE 7]>
-	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
-	<![endif]-->
+    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+    <![endif]-->
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
@@ -45,6 +51,7 @@
                 </button>
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
             </div>
+
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
@@ -98,160 +105,41 @@
             <!-- /.navbar-collapse --> 
         </div>  
     </nav>
-    <!-- END NAV -->
 
-    <!-- MAIN HEADER -->  
-    <header id="top">
-        <!-- Main -->
-        <div class="jumbotron">
-            <div class="container">
-                
-                <div class="row">
-				    
-                    <!--CONTACT IMAGE-->
-                    <div class="vertalign col-xs-12 col-sm-12 hidden-md hidden-lg">
-                        <!-- IMAGE HERE -->
-                        <img class="img-responsive img-mobile" src="images/testimonials.png" alt="See for yourself what our satisfied clients say about our service">
-                        <!-- END IMAGE -->
-                    </div>  
-                    <div class="vertalign hidden-xs hidden-sm col-md-7">
-                        <!-- IMAGE HERE -->
-                        <img class="img-responsive" src="images/testimonials.png" alt="See for yourself what our satisfied clients say about our service">
-                        <!-- END IMAGE -->
-                    </div>  
-        
-                    <!-- HEADLINE -->
-                    <div class="text-right vertalign col-xs-12 col-md-5">
-                        <h2 class="headline">WHAT OUR CLIENTS SAY</h2>
-                        <hr>
-                        <p class="lead">Of Course, we think we do a <strong><em>great job for our clients</em></strong></p>
-                        <p>.. but we understand if you would rather <strong><em>hear it from them..</em></strong></p>
-					   <h2><span class="standout">Call 0123 456 789</span></h2> 
-                    </div>
-			
-                </div>
-                <!-- /ROW-->
-
-            </div>
-        </div>
-    </header>
-    <!-- END MAIN HEADER -->
-
-    <!-- CALL TO ACTION -->
-    <div class="well" style="margin-top:0px; padding-top:30px;">
-	   <div class="container">
-		
-            <div class="row">
-			
-                <div class="col-xs-12 col-sm-9 col-md-8">
-				    <p class="lead text-danger text-center" style="padding-top:7px;"><strong>REQUEST YOUR FREE, NO-OBLIGATION MEETING TODAY</strong></p>
-                </div> 
-                <div class="text-center col-xs-12 col-sm-3 ">
-                    <a class="btn btn-danger btn-block btn-md" href="#meeting" title="">MEET US</a>
-                </div>
-
-            </div>
-	
-        </div>
-    </div>
-    <!-- CALL TO ACTION -->
+    <!-- NAV END -->
 
     <!-- LEAD SECTION -->
-
-    <section id ="lead">
+    
+    <section id="lead-legal" class="no-jumbo">
         <div class="container">
-		
+            
             <div class="row">
-			
-                <div class="col-12 col-lg-12 text-center">
-				    <div class="page-header">
-					   <h1>At Company Name, <span class="">we put YOU first.</span></h1> 
-					   <h2>We Take The Time to Ensure Each and Every One of Our Clients Gets<br><strong><span class="text-info">The Personal Attention They Deserve</span></strong></h2>
-					   <p class="lead">Over the years, we have worked hard to earn the trust of our clients and developed some great working relationships along the way. Many of our clients have been kind enough to leave some feedback recognising the work that we do for them.</p>
-					   <p class="lead">Hopefully this will go some of the way to show the attention you can expect to receive when you become our client.</p>
-				    </div>
+                
+                <div class="col-sm-12 text-center">
+                    <div class="page-header">
+                        <h1>Thank You</h1>
+                        <h3 class="section-head">Thank you for signing up to the Business Builder Newsletter.</h3>
+                        <p class="lead">You will receive your free copy on next publication date. If you would like to speak to us about the Business Builder Newsletter or any part of our service, please call us on 0123 456 789.
+                        </p>
+                        <p class="lead"><a class="text-info" href="index.html">Return to the homepage</a></p>
+                    </div>
                 </div>
-            
+                <hr>  
+
             </div>
 
-            <!-- TESTIMONIAL =============================== -->
-
-            <div class="panel panel-default testimonial">
-                <div class="panel-body">
-                    <blockquote class="testimonial">
-                        <h4>Headline</h4>
-                        <p>Testimonial</p>
-                        <p class="text-right"><small>Client Name</small></p>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="panel panel-default testimonial">
-                <div class="panel-body">
-                    <blockquote class="testimonial">
-                        <h4>Headline</h4>
-                        <p>Testimonial</p>
-                        <p class="text-right"><small>Client Name</small></p>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="panel panel-default testimonial">
-                <div class="panel-body">
-                    <blockquote class="testimonial">
-                        <h4>Headline</h4>
-                        <p>Testimonial</p>
-                        <p class="text-right"><small>Client Name</small></p>
-                    </blockquote>
-                </div>
-            </div>
-
-            <div class="panel panel-default testimonial">
-                <div class="panel-body">
-                    <blockquote class="testimonial">
-                        <h4>Headline</h4>
-                        <p>Testimonial</p>
-                        <p class="text-right"><small>Client Name</small></p>
-                    </blockquote>
-                </div>
-            </div>
-            
-            <div class="panel panel-default testimonial">
-                <div class="panel-body">
-                    <blockquote class="testimonial">
-                        <h4>Headline</h4>
-                        <p>Testimonial</p>
-                        <p class="text-right"><small>Client Name</small></p>
-                    </blockquote>
-                </div>
-            </div>
-            
-            <div class="panel panel-default testimonial">
-                <div class="panel-body">
-                    <blockquote class="testimonial">
-                        <h4>Headline</h4>
-                        <p>Testimonial</p>
-                        <p class="text-right"><small>Client Name</small></p>
-                    </blockquote>
-                </div>
-            </div>
-
-	   </div>
-    </section>
-
-    <!-- CLINCH -->
-    <section id="clinch">
-        <div class="container">
-            <p class="text-center">To see how you too can benefit from working with us, <a href="#meeting"><span class="text-danger">request your FREE Meeting today</span></a>. Enter your details in the form or phone us direct on <span class="text-danger">0123 456 789.</span></p>
         </div>
     </section>
-    <!-- END CLINCH -->
-    
+
+    <!-- END LEAD SECTION -->
+
     <!-- MEETING -->
+
     <section id="meeting">
+
         <div class="container">    
             <div class="well">
-            
+                
                 <div class="row">
 
                     <div class="col-xs-12 col-md-6 text-justify text-danger meeting-sell">
@@ -300,43 +188,36 @@
                                 </div>
                             </div>
                         </form>
-                        <!-- END FORM --> 
+                        <!-- END FORM -->
                     </div>
-
+                
                 </div>
-
+            
             </div>
         </div>
+    
     </section>
+
     <!-- END MEETING -->
 
-    <!-- NOT CONVINCED =================================== -->
     <section id="call-to-action">
         <div class="container" id="cta">
-            
             <div class="row">
-
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    
+                <div class="col-xs-12">
                     <div class="row">
-
                         <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.html">watch this video</a> and see the difference a Super Accountant can make to your business! Remember, you can meet with us for free, with no-obligation to become our client. We'll even donate £100 to your favourite charity if you don't feel that the meeting was worth your while.</p>
-                            <p class="undecided text-center">So what have you got to lose? Call us direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find other ways to get in touch <a href="contact-us.html">here</a>.</p>
+                            <p class="undecided text-center">Why not take a moment to <a href="index.html">watch this video</a> and see the difference a Super Accountant can make to your business! 
+                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.html">here</a></p>
                         </div> 
                         <div class="text-center col-md-6 col-md-offset-3">
                             <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>
-                        </div>
-
+                        </div> 
                     </div>
-
                 </div>
-
             </div>
-
         </div>
     </section>
-    <!-- END NOT CONVINCED -->
+
 
     <!-- ASSOCIATIONS -->
     

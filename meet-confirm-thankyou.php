@@ -1,11 +1,17 @@
+<?php  
+
+include 'admin/var.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>The Business Builder Newsletter | Company Name</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="The Business Builder Newsletter is published regularly by Company Name, accountants in Location. The newsletter offers helpful advice to owners and directors of small businesses, looking to grow their business. Call us on 0123 456 789">
+    <title>Thank You | Company Name</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">   
+    <meta name="description" content="The Business Builder Newsletter is a regular publication of Company Name. Company Name are accountants in Location. Call us on 0123 456 789 to ask us what we can do for your small business">
     <!-- INCLUDES -->
     <!-- Latest compiled and minified CSS BS 3.0. latest minifined--> 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -31,7 +37,7 @@
     <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
 </head>
 <body>
-    
+
     <!-- NAV -->
     <nav id="topnav" class="navbar navbar-default navbar-fixed-top " role="navigation">
         <div class="container-fluid">
@@ -45,7 +51,6 @@
                 </button>
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
             </div>
-
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
@@ -91,234 +96,41 @@
                         </ul>
                     </li>
                 </ul>
-            
                 <div class="nav navbar-nav navbar-right">
                     <a href="tel:0123 456 789"><span class="phone"><i class="icon-phone"></i>0123 456 789</span></a> 
                     <a href="#meeting" class="btn btn-danger navbar-btn">FREE Meeting</a> 
                 </div>
-
             </div>
             <!-- /.navbar-collapse --> 
         </div>  
     </nav>
-
     <!-- END NAV -->
 
-    <!-- MAIN HEADER -->  
-    <header id="top">
-        <!-- Main -->
-        <div class="jumbotron">
-            <div class="container">
-                
-                <div class="row">
-                    
-                    <div class="vertalign col-sm-6" >
-                        <img class="img-responsive hidden-xs" src="images/newsletter_cover.png" alt="Sign up for regular newsletter, packed full of helpful advice for the small business owner" />
-                    </div>
-
-                    <!--  description-->
-                    <div class="vertalign text-right col-xs-12 col-sm-6">
-                        <h2 class="headline">THE BUSINESS BUILDER NEWSLETTER</h2>
-                        <hr>
-                        <p class="lead">
-                            Innovative Ideas &amp; Practical Advice To Give Small Business Owners The Edge..
-                        </p>
-                        <p>
-                            <a class="header-link" href="#business-builder-form" alt="Sign up for the Business Builder Newsletter">Sign up Today</a> 
-                        </p>
-                        <hr>
-                        <h2><span class="standout">Call 0123 456 789</span></h2>                    
-                    </div>
-                    <!--end headline column-->
-                
-                </div>
-                <!-- /ROW-->
-            </div>
-        </div>
-    </header>
-    <!-- END MAIN HEADER -->
-
-    <!-- CALL TO ACTION -->
-    <div class="well" style="margin-top:0px; padding-top:30px;">
-        <div class="container">
-            
-            <div class="row">
-
-                <div class="col-xs-12 col-sm-9 col-md-8">
-				    <p class="lead text-danger text-center" style="padding-top:7px;"><strong>REQUEST YOUR FREE, NO-OBLIGATION MEETING TODAY</strong></p>
-                </div> 
-                <div class="text-center col-xs-12 col-sm-3 ">
-				    <a class="btn btn-danger btn-block btn-md" href="#meeting" title="">MEET US</a>
-                </div>
-
-            </div>
-
-        </div>
-    </div>
-    <!-- END CALL TO ACTION -->
-
     <!-- LEAD SECTION -->
-
-    <section id ="lead">
+    <section id="lead-legal" class="no-jumbo">
         <div class="container">
-            
+        
             <div class="row">
-
-                <div class="visible-xs">
-                    <img class="img-responsive img-mobile" src="images/newsletter_cover.png" alt="" />
-                </div>
+                
                 <div class="col-12 col-lg-12 text-center">
                     <div class="page-header">
-                        <h1>Proven Strategies To Help You Build a Better Business</h1>
-                        <h2>Our regular newsletter is crammed full of easy-to-apply strategies to help any director/owner who wants to take <strong><span class="text-info">their business to the next level</span>.</strong></h2>
-                        <p class="lead">We genuinely believe that it is required reading, containing invaluable information for every business owner, or indeed anybody interested in developing their firm or organisation.</p>
-                        <p class="lead">Simply complete the details below and we'll add you to the mailing list. You will not receive any unsolicited communications and you can opt-out at any time.</p>
+                        <h1>Thank You</h1>
+                        <h3 class="section-head">Thank you for requesting a meeting,<br> we'll be in contact very soon!</h3>
+                        <p class="lead">    
+                            <a class="text-info" href="index.html">You can click here if you would like to return to the homepage.</a>
+                        </p>
+                        <p>
+                            Want to connect with us on social media? Follow the links below for regular news & updates
+                        </p>
                     </div>
-                </div>
+        	   </div>
+                <hr>
 
-            </div>
-        
-            <div class="row">
-
-                <div class="col-sm-offset-3 col-sm-6">
-                    <form>
-                        <label class="control-label" for="FirstName"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="Your First Name" id="FirstName" name="FirstName" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="LastName"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="Your Last Name" id="LastName" name="LastName" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="EmailAddress"></label>
-                        <div class="col-xs-12">
-                            <input type="email" placeholder="Your Email Address" id="EmailAddress" name="EmailAddress" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="CAT_Custom_1038426"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="Address" id="CAT_Custom_1038426" name="CAT_Custom_1038426" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="CAT_Custom_1038427"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="State Or County" id="CAT_Custom_1038427" name="CAT_Custom_1038427" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="CAT_Custom_1038428"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="Zip Or Postcode" id="CAT_Custom_1038428" name="CAT_Custom_1038428" class="form-control" />
-                        </div>
-                        <br />
-                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 text-center">
-                        </div>
-                        <br />
-                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
-                            <input type="submit" style="margin-top: 6px;" class="form-control" />
-                        </div>
-                    </form>
-                </div>
-                <!-- col -->
-
-            </div>
-
+    	   </div>
+    
         </div>
     </section>
-
-    <!-- MEETING -->
-
-    <section id="meeting">
-        
-        <div class="container">    
-            <div class="well">
-
-                <div class="row">
-
-                    <div class="col-xs-12 col-md-6 text-justify text-danger meeting-sell">
-                        <h3 class="text-danger text-center" style="padding-top:7px;"><strong>ARRANGE YOUR FREE MEETING TODAY! JUST FILL OUT OUR QUICK AND EASY FORM...</strong></h3>
-                        <h4 class="text-center">At the <strong>FREE</strong>, No-Obligation Meeting You Will Receive:</h4>
-                        <ul>
-                            <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
-                            <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong>£100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
-                        </ul>
-                    </div>
-
-                    <div class="col-xs-12 col-md-6">
-                        <!--FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL)-->                
-                        <form>
-                            <div style="margin-top: 40px;" id="meet-form" class="form-horizontal">
-                                <label class="control-label" for="FirstName"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your First Name" id="FirstName" name="FirstName" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="LastName"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your Last Name" id="LastName" name="LastName" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="Company"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your Company Name (optional)" id="Company" name="Company" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="WorkPhone"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your Telephone Number" id="WorkPhone" name="WorkPhone" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="EmailAddress"></label>
-                                <div class="col-xs-12">
-                                    <input type="email" placeholder="Your Email Address" id="EmailAddress" name="EmailAddress" class="form-control" />
-                                </div>
-                                <br />
-                                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
-                                </div>
-                                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-4 col-md-4 text-center">
-                                    <button class="btn btn-lg btn-danger" style="margin-top: 6px;" type="submit">Submit</button>
-                                </div>
-                            </div>
-                        </form>
-                        <!-- END FORM -->
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-
-    </section>
-
-    <!-- END MEETING -->
-
-    <section id="call-to-action">
-        <div class="container" id="cta">
-            
-            <div class="row">
-                
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    
-                    <div class="row">
-                        
-                        <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Why not take a moment to <a href="index.html">watch this video</a> and see the difference a Super Accountant can make to your business!</p>
-                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.html">here</a></p>
-                        </div> 
-                        <div class="text-center col-md-6 col-md-offset-3">
-                            <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>
-                        </div> 
-
-                    </div>
-
-                </div>
-
-            </div>
-
-        </div>
-    </section>
+    <!-- END LEAD SECTION -->
 
     <!-- ASSOCIATIONS -->
     

@@ -1,32 +1,35 @@
+<?php  
+
+include 'admin/var.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
 	<meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>The Super Accountant | Company Name</title>
+    <title>Testimonials | Company Name</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Find out why they call us The Super Accountant. Any accountant can file your taxes but can they give your business the advantage it needs and deserves? Call us Today on 0123 456 789">
-    <meta name="author" content="">
-    <!-- Le styles -->
+    <meta name="description" content="Company Name are accountants in Location. Here are just a few of the testimonials written by business clients & customers in our area about the service they receive. Call today on 0123 456 789. There's always room for one more happy customer.">
+    <!-- INCLUDES -->
     <!-- Latest compiled and minified CSS BS 3.0. latest minifined--> 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
     <link href="assets/css/theme.css" rel="stylesheet">
     <link href="assets/css/theme-custom.css" rel="stylesheet">
-    <!-- /GOOGLE FONT-->
+    <!-- FONTS -->
     <link href="http://fonts.googleapis.com/css?family=Comfortaa:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
     <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css">
-    <link href='http://fonts.googleapis.com/css?family=Quicksand:400,700' rel='stylesheet' type='text/css'>
     <!-- FontAwesome icons -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <!--[if lt IE 7]>
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
-    <![endif]-->
-    <!-- Fav and touch icons -->
+	<link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+	<![endif]-->
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
     <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
     <![endif]-->
-    <!-- Le fav and touch icons -->
+    <!-- FAV & TOUCH ICONS -->
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
     <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
@@ -81,8 +84,10 @@
                             <li class="divider"></li>
                             <li><a href="testimonials.html">Testimonials</a></li>
                         </ul>   
-                    </li>               
+                    </li>
+                    <!-- CONTACT US -->
                     <li><a href="contact-us.html">Contact</a></li>
+                    <!-- GROWTH -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grow Your Business <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
@@ -101,49 +106,46 @@
     </nav>
     <!-- END NAV -->
 
-    <!-- HEADER -->  
+    <!-- MAIN HEADER -->  
     <header id="top">
         <!-- Main -->
         <div class="jumbotron">
             <div class="container">
                 
                 <div class="row">
-				
+				    
                     <!--CONTACT IMAGE-->
-                    <div class="vertalign col-xs-12 col-sm-3 hidden-md hidden-lg">
+                    <div class="vertalign col-xs-12 col-sm-12 hidden-md hidden-lg">
                         <!-- IMAGE HERE -->
-                        <img class="img-responsive img-mobile" src="images/super-accountant.png" alt="The Super Accountant Gives Your Advantage The Business It Needs AND Deserves">
+                        <img class="img-responsive img-mobile" src="images/testimonials.png" alt="See for yourself what our satisfied clients say about our service">
                         <!-- END IMAGE -->
                     </div>  
                     <div class="vertalign hidden-xs hidden-sm col-md-7">
                         <!-- IMAGE HERE -->
-                        <img class="img-responsive" src="images/super-accountant.png" alt="The Super Accountant Gives Your Advantage The Business It Needs AND Deserves">
+                        <img class="img-responsive" src="images/testimonials.png" alt="See for yourself what our satisfied clients say about our service">
                         <!-- END IMAGE -->
                     </div>  
         
                     <!-- HEADLINE -->
-                    <div class="text-right vertalign col-xs-12 col-sm-9 col-md-5">
-                        <h2 class="headline">THE SUPER ACCOUNTANT</h2>
+                    <div class="text-right vertalign col-xs-12 col-md-5">
+                        <h2 class="headline">WHAT OUR CLIENTS SAY</h2>
                         <hr>
-                        <p class="lead">
-                            You won't find another accountant like us..<em> we guarantee it!</em>
-                        </p>
-                        <p>
-                            One of the World's Leading Sales &AMP; Marketing Systems... is <strong>FREE</strong> to all our clients 
-                        </p>
-                        <hr>
-                        <h2><span class="standout">Call 0123 456 789</span></h2>                    
-                    </div>		
-
+                        <p class="lead">Of Course, we think we do a <strong><em>great job for our clients</em></strong></p>
+                        <p>.. but we understand if you would rather <strong><em>hear it from them..</em></strong></p>
+					   <h2><span class="standout">Call 0123 456 789</span></h2> 
+                    </div>
+			
                 </div>
                 <!-- /ROW-->
 
             </div>
         </div>
     </header>
+    <!-- END MAIN HEADER -->
 
+    <!-- CALL TO ACTION -->
     <div class="well" style="margin-top:0px; padding-top:30px;">
-        <div class="container">
+	   <div class="container">
 		
             <div class="row">
 			
@@ -151,129 +153,113 @@
 				    <p class="lead text-danger text-center" style="padding-top:7px;"><strong>REQUEST YOUR FREE, NO-OBLIGATION MEETING TODAY</strong></p>
                 </div> 
                 <div class="text-center col-xs-12 col-sm-3 ">
-				    <a class="btn btn-danger btn-block btn-md" href="#meeting" title="">MEET US</a>
+                    <a class="btn btn-danger btn-block btn-md" href="#meeting" title="">MEET US</a>
                 </div>
 
             </div>
-
+	
         </div>
     </div>
-    <!-- / HEADER -->
-
-    <section id ="Section-2">
-        <div class="container">
-            
-            <div class="row">
-
-                <div class="col-12 col-lg-12 text-center" style="margin-top:0px;">
-				    <div class="page-header">
-					   <h1>Company Name, Accountants and Tax Wizards in Location.</h1>
-					   <h2>Any Accountant can produce a decent set of accounts...</h2>
-					   <h2><span class="text-info">but a <strong>Super Accountant</strong> does so much more than that</span></h2>
-					   <p class="lead"> We don't just call ourselves "The Super Accountants" because we like to give ourselves accolades. Where we are different, and more importantly - <em>where we really make the difference for our customers</em>, is in how we <strong>create a relationship whereby our client truly sees us an asset to their business.</strong></p>
-					   <p class="lead">It doesn't matter whether you're just starting out, have an established business or you've been round the block a few times. We know what's required to create a win-win relationship for you...</p>
-				    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <!--SUPER ACCOUNTANT MARKETING -->
-    
-    <section class="altcolor2">	
-        <div class = "container">	
-            
-            <div class="row text-center">
-			
-                <div class="col-xs-12 col-sm-4">
-				    <div class="text-center img-100">					
-					   <img src="images/lock.png" width="100" height="100" alt=""/>
-				    </div>
-				    <h3 class="height-level">
-					   FIXED FEES
-				    </h3>
-				    <p>
-					   When you become our client, you can wave goodbye to those unreasonable extra fees and charges that so many accountants are guilty of..
-				    </p>
-				    <p>
-					   That's because <strong>all of our fees are fixed</strong>, so you'll never get any nasty surprises. To prevent you from getting a bill at the end of each year, you can pay us in <strong>a low, manageable monthly fee</strong> , helping you with your cash flow.
-				    </p>
-                </div>
-
-                <div class="col-xs-12 col-sm-4">
-				    <div class="img-center img-100">						
-                        <img src="images/filing.png" width="100" height="100" alt=""/>
-                    </div>
-				    <h3 class="height-level">
-					   YOUR FILING DEADLINES MET.. GUARANTEED
-				    </h3>
-				    <p>
-					   Neither will you have to worry about key filing deadlines, because if in the very unlikely event we miss one, <strong>we'll pay ALL of the fines <em>AND give you £250 for the inconvenience</em></strong>
-				    </p>
-                </div>
-			
-                <div class="col-xs-12 col-sm-4">
-				    <div class="img-center img-100">	
-                        <img src="images/phone.png" width="100" height="85" alt=""/>
-				    </div>
-				    <h3 class="height-level">
-					   ALL SUPPORT IS FREE
-				    </h3>
-				    <p>if you have an urgent question or just a quick query, everyone here is ready and waiting to help you...</p>
-				    <p>…and that <strong><em>includes the partners of the firm</em></strong>, who you have direct access to whenever you need it.</p>
-                </div>
-			
-                <div class="clearfix">
-                </div>
-
-            </div>
-            <!-- row-->
-
-            <div class="row">
-                
-                <p class="lead text-center conclusion">Now how many accountants would go <u>that far</u> for their clients?</p>
-            </div>
-        </div>
-    </section>
-    <!--END SUPER ACCOUNTANT MARKETING -->
-    
-    <!--BUSINESS GROWTH SYSTEM MARKETING --> 
-    <section class="altcolor1">
-
-        <div class="row">
-		
-            <div class="container text-center">
-                <h2>And still, we want to <strong>go the extra mile to help our clients succeed</strong></h2>
-                <p class="lead">We have invested a <u>significant sum of our own money</u> so that you and all our clients get <strong>free and unlimited access to arguably the world's most successful sales and marketing system.</strong></p>
-                <p class="lead">This alone is worth <u>over £6000 to you</u> -<strong> every single year </strong>- <u>and you get it it for free</u> when you become our client. </p>
-                <a class="btn btn-lg btn-info" href="business-growth.html"><i>Find Out More</i></a>
-            </div>
-        </div>
-
-    </section>
-
-	<hr>
-    
     <!-- CALL TO ACTION -->
-    <section id="clinch">
-        
+
+    <!-- LEAD SECTION -->
+
+    <section id ="lead">
         <div class="container">
-            <p class="undecided text-center">Of course, you will never know for certain whether we will get along - or indeed what we can do for your business - until you meet with us. Call Us Today on <span class="text-danger"> 0123 456 789
-            </span>or fill out our form below (it only takes one minute!), and arrange your <span class="text-danger">FREE, No-Obligation Meeting.</span></p>
-        </div>
+		
+            <div class="row">
+			
+                <div class="col-12 col-lg-12 text-center">
+				    <div class="page-header">
+					   <h1>At Company Name, <span class="">we put YOU first.</span></h1> 
+					   <h2>We Take The Time to Ensure Each and Every One of Our Clients Gets<br><strong><span class="text-info">The Personal Attention They Deserve</span></strong></h2>
+					   <p class="lead">Over the years, we have worked hard to earn the trust of our clients and developed some great working relationships along the way. Many of our clients have been kind enough to leave some feedback recognising the work that we do for them.</p>
+					   <p class="lead">Hopefully this will go some of the way to show the attention you can expect to receive when you become our client.</p>
+				    </div>
+                </div>
+            
+            </div>
 
+            <!-- TESTIMONIAL =============================== -->
+
+            <div class="panel panel-default testimonial">
+                <div class="panel-body">
+                    <blockquote class="testimonial">
+                        <h4>Headline</h4>
+                        <p>Testimonial</p>
+                        <p class="text-right"><small>Client Name</small></p>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="panel panel-default testimonial">
+                <div class="panel-body">
+                    <blockquote class="testimonial">
+                        <h4>Headline</h4>
+                        <p>Testimonial</p>
+                        <p class="text-right"><small>Client Name</small></p>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="panel panel-default testimonial">
+                <div class="panel-body">
+                    <blockquote class="testimonial">
+                        <h4>Headline</h4>
+                        <p>Testimonial</p>
+                        <p class="text-right"><small>Client Name</small></p>
+                    </blockquote>
+                </div>
+            </div>
+
+            <div class="panel panel-default testimonial">
+                <div class="panel-body">
+                    <blockquote class="testimonial">
+                        <h4>Headline</h4>
+                        <p>Testimonial</p>
+                        <p class="text-right"><small>Client Name</small></p>
+                    </blockquote>
+                </div>
+            </div>
+            
+            <div class="panel panel-default testimonial">
+                <div class="panel-body">
+                    <blockquote class="testimonial">
+                        <h4>Headline</h4>
+                        <p>Testimonial</p>
+                        <p class="text-right"><small>Client Name</small></p>
+                    </blockquote>
+                </div>
+            </div>
+            
+            <div class="panel panel-default testimonial">
+                <div class="panel-body">
+                    <blockquote class="testimonial">
+                        <h4>Headline</h4>
+                        <p>Testimonial</p>
+                        <p class="text-right"><small>Client Name</small></p>
+                    </blockquote>
+                </div>
+            </div>
+
+	   </div>
     </section>
-    <!--END CALL TO ACTION -->
 
+    <!-- CLINCH -->
+    <section id="clinch">
+        <div class="container">
+            <p class="text-center">To see how you too can benefit from working with us, <a href="#meeting"><span class="text-danger">request your FREE Meeting today</span></a>. Enter your details in the form or phone us direct on <span class="text-danger">0123 456 789.</span></p>
+        </div>
+    </section>
+    <!-- END CLINCH -->
+    
     <!-- MEETING -->
-
     <section id="meeting">
-
         <div class="container">    
             <div class="well">
-                
+            
                 <div class="row">
-                    
+
                     <div class="col-xs-12 col-md-6 text-justify text-danger meeting-sell">
                         <h3 class="text-danger text-center" style="padding-top:7px;"><strong>ARRANGE YOUR FREE MEETING TODAY! JUST FILL OUT OUR QUICK AND EASY FORM...</strong></h3>
                         <h4 class="text-center">At the <strong>FREE</strong>, No-Obligation Meeting You Will Receive:</h4>
@@ -320,7 +306,7 @@
                                 </div>
                             </div>
                         </form>
-                        <!-- END FORM -->           
+                        <!-- END FORM --> 
                     </div>
 
                 </div>
@@ -330,19 +316,19 @@
     </section>
     <!-- END MEETING -->
 
-    <!-- UNCONVINCED -->
+    <!-- NOT CONVINCED =================================== -->
     <section id="call-to-action">
         <div class="container" id="cta">
             
             <div class="row">
-                
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
 
+                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                    
                     <div class="row">
 
                         <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.html">watch this video</a> and see the difference a Super Accountant can make to your business!</p>
-                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.html">here</a></p>
+                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.html">watch this video</a> and see the difference a Super Accountant can make to your business! Remember, you can meet with us for free, with no-obligation to become our client. We'll even donate £100 to your favourite charity if you don't feel that the meeting was worth your while.</p>
+                            <p class="undecided text-center">So what have you got to lose? Call us direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find other ways to get in touch <a href="contact-us.html">here</a>.</p>
                         </div> 
                         <div class="text-center col-md-6 col-md-offset-3">
                             <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>
@@ -356,7 +342,7 @@
 
         </div>
     </section>
-    <!-- END UNCONVINCED -->
+    <!-- END NOT CONVINCED -->
 
     <!-- ASSOCIATIONS -->
     

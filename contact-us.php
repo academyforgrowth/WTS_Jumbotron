@@ -1,11 +1,17 @@
+<?php  
+
+include 'admin/var.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
     <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
     <meta charset="utf-8">
-    <title>About Us | Company Name</title>
+    <title>Contact Us | Company Name</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Company Name are accountants in Location. We offer tax-planning services, compliance, auditing, to small and medium business. We help firms grow and achieve their financial goals. Call us on 0123 456 789">
+    <meta name="description" content="Contact Page for Company Name, accountants in Location, offer accounting, tax-planning, compliance, auditing services. We help firms grow and achieve their financial goals. Call us on 0123 456 789">
     <!-- INCLUDES -->
     <!-- Latest compiled and minified CSS BS 3.0. latest minifined--> 
     <link href="assets/css/bootstrap.min.css" rel="stylesheet">
@@ -17,12 +23,12 @@
     <!-- FontAwesome icons -->
     <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
     <!--[if lt IE 7]>
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
-    <![endif]-->
+        <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
+        <![endif]-->
     <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
     <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]-->
+          <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
+        <![endif]-->
     <!-- FAV & TOUCH ICONS -->
     <link rel="shortcut icon" href="assets/ico/favicon.ico">
     <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
@@ -32,7 +38,7 @@
 </head>
 <body>
 
-    <!-- NAV START -->
+    <!-- NAV -->
     <nav id="topnav" class="navbar navbar-default navbar-fixed-top " role="navigation">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
@@ -46,6 +52,7 @@
                 <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
             </div>
 
+            <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
                 <ul class="nav navbar-nav">
                     <!-- ABOUT -->              
@@ -58,7 +65,6 @@
                             <li><a href="super-accountant.html">The Super Accountant</a></li>
                         </ul>
                     </li>
-
                     <!--SERVICES -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
@@ -69,7 +75,6 @@
                             <li><a href="how-we-help.html#value-added">Giving You More</a></li>
                         </ul>   
                     </li>
-                    
                     <!-- WHO WE HELP -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Expertise <span class="caret"></span></a>
@@ -80,7 +85,7 @@
                             <li class="divider"></li>
                             <li><a href="testimonials.html">Testimonials</a></li>
                         </ul>   
-                    </li>               
+                    </li>
                     <!-- CONTACT US -->
                     <li><a href="contact-us.html">Contact</a></li>
                     <!-- GROWTH -->
@@ -92,7 +97,7 @@
                         </ul>
                     </li>
                 </ul>
-
+            
                 <div class="nav navbar-nav navbar-right">
                     <a href="tel:0123 456 789"><span class="phone"><i class="icon-phone"></i>0123 456 789</span></a> 
                     <a href="#meeting" class="btn btn-danger navbar-btn">FREE Meeting</a> 
@@ -101,184 +106,232 @@
             <!-- /.navbar-collapse --> 
         </div>  
     </nav>
-    <!-- NAV END -->
+    <!-- END NAV -->
 
     <!-- MAIN HEADER -->  
- 
     <header id="top">
         <!-- Main -->
         <div class="jumbotron">
             <div class="container">
             
                 <div class="row">
-
-                    <!--  image -->
-                    <div class="hidden-xs col-sm-7" >
-                        <img class="img-responsive" src="images/info.png" alt="About " />
-                    </div>
-              
-                    <!--  HEADLINE-->
-                    
-                    <div class="text-right col-sm-5">
-                        <h2 class="headline">ABOUT US</h2>
+            
+                    <!--CONTACT IMAGE-->
+                    <div class="vertalign col-xs-12 col-sm-12 hidden-md hidden-lg">
+                        <!-- IMAGE HERE -->
+                        <img class="img-responsive img-mobile" src="images/contactmap.png" alt="Contact Our Friendly Team, ready for all of your tax, accounting and financial needs">
+                        <!-- END IMAGE -->
+                    </div>  
+                    <div class="vertalign hidden-xs hidden-sm col-md-7">
+                        <!-- IMAGE HERE -->
+                        <img class="img-responsive" src="images/contactmap.png" alt="Meet with us for FREE with absolutely no-obligation">
+                        <!-- END IMAGE -->
+                    </div>  
+        
+                    <!-- HEADLINE -->
+                    <div class="text-right vertalign col-xs-12 col-md-5">
+                        <h2 class="headline">CONTACT US</h2>
                         <hr>
-                        <p class="lead">With Our Expertise, Your Business Can Be An Even More Powerful Force</p>
-                        <p>Call Today and find out <strong>why we are different</strong></p>
+                        <p class="lead">
+                            Call, Email or Write To Us.. We're here for <strong>you</strong>
+                        </p>
                         <hr>
-                        <h2><span class="standout">Call 0123 456 789</span></h2>   
+                        <h2><span class="standout">Call 0123 456 789</span></h2>                    
                     </div>
 
                 </div>
+                <!-- /ROW-->
 
             </div>
         </div>
     </header>
-
-    <!-- HEADER END -->
+    <!-- END MAIN HEADER -->
 
     <!-- CALL TO ACTION -->
     <div class="well" style="margin-top:0px; padding-top:30px;">
-        <div class="container">
+    	<div class="container">
+    		
             <div class="row">
+    			
                 <div class="col-xs-12 col-sm-9 col-md-8">
-				    <p class="lead text-danger text-center" style="padding-top:7px;"><strong>REQUEST YOUR FREE, NO-OBLIGATION MEETING TODAY</strong></p>
-                </div> 
-                <div class="text-center col-xs-12 col-sm-3 ">
-				    <a class="btn btn-danger btn-block btn-md" href="#meeting" title="">MEET US</a>
-                </div> 
-            </div>
-        </div>
+    				<p class="lead text-danger text-center" style="padding-top:7px;"><strong>REQUEST YOUR FREE, NO-OBLIGATION MEETING TODAY</strong></p>
+    			</div> 
+    			<div class="text-center col-xs-12 col-sm-3 ">
+    				<a class="btn btn-danger btn-block btn-md" href="#meeting" title="">MEET US</a>
+    			</div>
+
+    		</div>
+
+    	</div>
     </div>
     <!-- END CALL TO ACTION -->
 
     <!-- LEAD SECTION -->
 
-    <section id ="lead">
+    <section id="lead">
         <div class="container">
+        
             <div class="row">
+
                 <div class="col-12 col-lg-12 text-center">
-                    <div class="page-header">
-                        <h1>Accounting &amp; Tax Services for Small Business in Location</h1>
-                        <h2><strong><span class="text-info">Proven Solutions</span></strong> for the modern small business</h2>
-                        <p class="lead">We redefine what it means to be an accountant. Yes, we manage your books, and help take care of your tax burden, <strong>but we do more..</strong>  
-                        <p class="lead">Here is a little more about us, and the lengths we go to <b>build profitable, long-term relationships with our clients</b></p>
+                    <div class="row page-header">
+                        <h1>Contact Company Name</h1>
+                        <h2>However you choose to get in touch, we're ready for your enquiry</h2>
                     </div>
+                    
+                    <div class="row">
+
+                        <h2>Our Offices</h2>
+                        <ul class="inline-list" id="location-list">
+                            <!-- REMOVE LIST ITEMS BELOW AS APPROPRIATE TO REFLECT NUMBER OF OFFICES -->
+                            <li><a href="#location-1">Location</a></li>
+                            <li><a href="#location-2">Location</a></li>
+                            <li><a href="#location-3">Location</a></li>
+                        </ul>
+
+                    </div>
+
                 </div>
+
             </div>
         </div>
     </section>
-
     <!-- END LEAD SECTION -->
 
-    <!-- FEATURE -->
+    <!-- LOCATION 1 START -->
+    <section id="location-1">
+    
+        <div class="container">
+        
+            <div class="row">
 
-    <section class="altcolor2" id="">
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <!-- MAP -->
+                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.14245968236!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407503223429" frameborder="0" style="border: 0px;"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-offset-1 col-md-5">
+                    <!-- ADDRESS -->
+                    <address class="office-info">
+                        <h3>Location</h3>
+                        <h4>Company Name</h4>
+                        <p>Address Line 1<br />
+                        Address Line 2<br />
+                        Suburb or District<br />
+                        Town or City<br />
+                        State, County or Province<br />
+                        Zip or Post Code</p>
+                        <h4><abbr title="Phone">Tel:</abbr></h4>
+                        <p><a href="tel:023 456 789">0123 456 789</a></p>
+                    </address>
+                    <h4>Opening Hours</h4>
+                    <p>Mon-Fri 09:00 - 17:00</p>
+                    <div>
+                        <a href="#meeting" class="btn btn-danger btn-sm more">Request Meeting</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- LOCATION 1 END -->
+
+    <!-- LOCATION 2 START -->
+    <section id="location-2">
+
         <div class="container">
 
-            <div class="row marketing" id="ethos">
+            <div class="row">
 
-                <div class="col-xs-offset-3 col-xs-6 hidden-md hidden-lg">
-                    <div class="row img-row">
-                        <img class="img-responsive img-mobile" src="images/logobig.png" alt="Logo" />
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <!-- MAP -->
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.07122984118!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407136288113" width="600" height="450" frameborder="0" style="border: 0px;"></iframe>
                     </div>
                 </div>
 
-                <!--  description-->
-                <div class="text-justify vertalign col-xs-12 col-md-7">
-                    <h2 class="">Our Ethos</h2>
-                    <hr>
-                    <h3>The SUPER ACCOUNTANT</h3>
-                    <p class="lead">
-                        Small businesses are the lifeblood of the community, as well as the drivers of any local economy. The conditions that small business owners have to operate in often put them at a disadvantage when compared the nationals and multinationals that surround them. So as <strong>A Super Accountant</strong>, we look to give your business the advantages it needs and deserves.
-                    </p>
-                    <p class="lead">
-                        We Put You First. We want to create a relationship, to help your business compete and thrive, so that YOU, our client, see us as <strong>a valuable asset to your business.</strong> 
-                    </p>
-                    <p class="lead">
-                        To find out more about how working with a Super Accountant can benefit your business, call our friendly team on <span class="text-danger">0123 456 789</span> to arrange a free no-obligation meeting, or for a little more information on the lengths we go to for our clients, take a few moments of your time to <a href="index.html">Watch Our Video</a>.
-                    </p>
-                
-                    <div class="row">
-                        <div class="col-md-6">
-                            <a href="services.html" class="btn btn-info btn-block btn-lg"><i class="icon-info-sign"></i> OUR SERVICES</a>
-                        </div>
+                <div class="col-md-offset-1 col-md-5">
+                    <!-- ADDRESS -->
+                    <address class="office-info">
+                        <h3>Location</h3>
+                        <h4>Company Name</h4>
+                        <p>Address Line 1<br />
+                        Address Line 2<br />
+                        Suburb or District<br />
+                        Town or City<br />
+                        State, County or Province<br />
+                        Postal or Zip Code</p>
+                        <h4><abbr title="Phone">Tel:</abbr></h4>
+                        <p><a href="tel:0123 456 789">0123 456 789</a></p>
+                    </address>
+                    <h4>Opening Hours</h4>
+                    <p>Mon-Fri 09:00 - 17:00</p>  
+                    <div>
+                        <a href="#meeting" class="btn btn-danger btn-sm more">Request Meeting</a>
                     </div>
                 </div>
-            
-                <!-- / description-->
-            
-                <div class="hidden-xs hidden-sm vertalign col-md-5">
-                    <img class="img-responsive" src="images/logobig.png" alt="" />
-                </div>
-            
+
             </div>
-            <!-- /ROW-->
-        
-            <div class="row marketing" id="promises">
-			
-                <div class="col-xs-offset-3 col-xs-6 hidden-md hidden-lg">
-                    <img class="img-responsive img-mobile" src="images/award.png" alt="Quality" />
-                </div>
-        
-                <!--  description-->
-                <div class="text-justify vertalign col-xs-12 col-md-7">
-                    <h2 class="">Quality Assured</h2>
-                    <hr>
-                    <h3>OUR PROMISES <u>TO YOU</u></h3>
-                    <p class="lead">
-                        We are committed to your business success, and we go further to provide the best possible service to you:
-                    </p>
-                
-                    <div class="row">
-                        
-                        <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 text-center">           
-                            <i class="icon-ok-sign icon-4x text-danger"></i> 
-                        </div>
-                        <div class="col-xs-8 col-sm-9 col-md-10 col-lg-10"> 
-                            <p class="list-item"><strong>All of our fees are fixed.</strong> No more nasty surprises on your next billing date, we'll agree with you in advance a figure that you can afford.</p> 
-                        </div>
-                        <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 text-center">           
-                            <i class="icon-ok-sign icon-4x text-danger"></i> 
-                        </div>
-                        <div class="col-xs-8 col-sm-9 col-md-10 col-lg-10"> 
-                            <p class="list-item"><strong>All Support is FREE and Unlimited.</strong> Need a word of advice? Call us, its included in your low, fixed, monthly fee. This includes access to the partners of the firm, whenever you need them.</p> 
-                        </div>
-                        <div class="col-xs-4 col-sm-3 col-md-2 col-lg-2 text-center">           
-                            <i class="icon-ok-sign icon-4x text-danger"></i> 
-                        </div>
-                        <div class="col-xs-8 col-sm-9 col-md-10 col-lg-10"> 
-                            <p class="list-item">We promise to meet all your key filing deadlines, <em>on time, every time,</em>  or we will <strong>pay any fines you are subjected to <u>AND</u> give you £250 for the inconvenience</strong></p> 
-                        </div>
 
-                    </div>
-
-                </div>
-                <!-- / description-->
-
-                <div class="hidden-xs hidden-sm vertalign col-md-5">
-                    <img class="img-responsive" src="images/award.png" alt="" />
-                </div>
-
-                <div class="row">
-                    <p class="lead conclusion text-center">Because that's the type of accountants we are</p>
-                </div>    
-    
-            </div>
         </div>
-        <!--container-->
-    </section>
 
-    <!-- END FEATURE -->
+    </section>
+    <!-- LOCATION 2 END -->
+
+    <!-- LOCATION 3 START -->
+    <section id="location-3">
+
+        <div class="container">
+
+            <div class="row">
+
+                <div class="col-md-6">
+                    <div class="embed-responsive embed-responsive-4by3">
+                        <!-- MAP -->
+                        <iframe src="https://www.google.com/maps/embed?pb=<!1m18!1m12!1m3!1d50470 class="07122984118 43759999999999 75769999999999 ">                   </!1m18!1m12!1m3!1d50470>1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407136288113" width="600" height="450" frameborder="0" style="border: 0px;"></iframe>
+                    </div>
+                </div>
+
+                <div class="col-md-offset-1 col-md-5">
+                    <!-- ADDRESS -->
+                    <address class="office-info">
+                        <h3>Location</h3>
+                        <h4>Company Name</h4>
+                        <p>Address Line 1<br />
+                        Address Line 2<br />
+                        Suburb or District<br />
+                        Town or City<br />
+                        State, County or Province<br />
+                        Postal or Zip Code</p>
+                        <h4><abbr title="Phone">Tel:</abbr></h4>
+                        <p><a href="tel:0123 456 789">0123 456 789</a></p>
+                    </address>
+                    <h4>Opening Hours</h4>
+                    <p>Mon-Fri 09:00 - 17:00</p>
+                    <div>
+                        <a href="#meeting" class="btn btn-danger btn-sm more">Request Meeting</a>
+                    </div>
+                </div>
+
+            </div>
+
+        </div>
+
+    </section>
+    <!-- LOCATION 3 END -->
 
     <!-- CLINCH -->
-
     <section id="clinch">
-        <div class="container">
-            <p class="text-center">Of course, you will never know for certain whether we will get along - or indeed what we can do for your business - until you meet with us. Call Us Today on <span class="text-danger">0123 456 789</span> or fill out our form below (it only takes one minute!), to arrange your <span class="text-danger emp">FREE, No-Obligation Meeting.</span>
-            </p>
+    
+        <div class="container text-center">
+            <p class="lead"><strong>So what are you waiting for?</strong> Call Today and talk to us about how we can make a real difference to your business. Arrange your <span class="text-danger">FREE, No-Obligation Meeting</span> using the form below or call us direct on <span class="text-danger">0123 456 789</span>.</p>
         </div>
-    </section>
 
+    </section>
     <!-- END CLINCH -->
 
     <!-- MEETING -->
@@ -287,7 +340,9 @@
 
         <div class="container">    
             <div class="well">
-                <div class="row">                
+                
+                <div class="row">
+
                     <div class="col-xs-12 col-md-6 text-justify text-danger meeting-sell">
                         <h3 class="text-danger text-center" style="padding-top:7px;"><strong>ARRANGE YOUR FREE MEETING TODAY! JUST FILL OUT OUR QUICK AND EASY FORM...</strong></h3>
                         <h4 class="text-center">At the <strong>FREE</strong>, No-Obligation Meeting You Will Receive:</h4>
@@ -299,7 +354,6 @@
                     </div>
 
                     <div class="col-xs-12 col-md-6">
-                        
                         <!--FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL)-->                
                         <form>
                             <div style="margin-top: 40px;" id="meet-form" class="form-horizontal">
@@ -335,33 +389,41 @@
                                 </div>
                             </div>
                         </form>
-                        <!-- END FORM -->
-        
+                        <!-- END FORM -->   
                     </div>
+                
                 </div>
+        
             </div>
         </div>
 
     </section>
-
     <!-- END MEETING -->
 
     <section id="call-to-action">
-        <div class="container" id="cta">
-            <div class="row">
-                <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
-                    <div class="row">
-                        <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.html">watch this video</a> and see the difference a Super Accountant can make to your business! Remember, you can meet with us for free, with no-obligation to become our client. We'll even donate £100 to your favourite charity if you don't feel that the meeting was worth your while.</p>
-                            <p class="undecided text-center">So what have you got to lose? Call us direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find other ways to get in touch <a href="contact-us.html">here</a>.</p>
-                        </div> 
-                        <div class="text-center col-md-6 col-md-offset-3">
-                            <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>
-                        </div> 
+            <div class="container" id="cta">
+                
+                <div class="row">
+                    
+                    <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
+                        
+                        <div class="row">
+                            
+                            <div class="col-lg-offset-2 col-lg-8">
+                                <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.html">watch this video</a> and see the difference a Super Accountant  can make to your business! 
+                                <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.html">here</a></p>
+                            </div> 
+                            <div class="text-center col-md-6 col-md-offset-3">
+                                <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>
+                            </div> 
+
+                        </div>
+
                     </div>
+
                 </div>
+
             </div>
-        </div>
     </section>
 
     <!-- ASSOCIATIONS -->
@@ -489,6 +551,7 @@
             Site by Academy For Growth Ltd</p>
         </div>
     </footer>
+    <!-- END FOOTER -->
 
     <!-- Javascript -->
     <script src="assets/js/jquery.js" type="text/javascript"></script>
