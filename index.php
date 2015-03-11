@@ -335,7 +335,7 @@ include 'admin/var.php';
                         <p class="lead"><strong><?php echo $company_name; ?> is the leading provider of <?php echo $business_2; ?> and tax-planning services in <?php echo $location; ?>.</strong> We do everything that you would expect your <?php echo $business_3; ?> to do, <em>but we also do so much more...</em></p>
                         <p class="lead">We work with you to establish <strong>your goals</strong> for <strong>your business</strong> - and help plan your financial affairs accordingly. All of the compliance services that we offer are fully managed by our expert team, taking the stress away from you.</p>
                         <p class="lead">Take advantage of our compliance, time-saving and value-added services and focus your valuable time and resources on doing what you do best: <strong>your business.</strong></p>
-        
+                        <?php include("admin/tracking.html"); ?>
                         <div class="row">
                             <div class="text-center">
                                 <a class="btn btn-info btn-lg more" href="how-we-help.php"><em class="icon-info-sign"></em> HOW WE HELP</a>
