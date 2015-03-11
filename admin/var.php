@@ -23,6 +23,12 @@ $business = 'Accountants'; // start with capital letter
 
 $business_2 = 'accounting'; // lowercase
 
+$business_3 = 'accountant'; // lowercase
+
+$business_4 = 'Accountant'; // start with capital letter
+
+$business_5 = 'Accounting'; // start with capital letter
+
 
 
 $nav_menu = array (
