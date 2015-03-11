@@ -49,7 +49,7 @@ include 'admin/var.php';
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a href="index.html" class="navbar-brand"><img alt="" src="images/logo.png" /></a>
+                <a href="index.php" class="navbar-brand"><img alt="" src="images/logo.png" /></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -58,41 +58,41 @@ include 'admin/var.php';
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">About Us<span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="about-us.html#ethos">Our Company</a></li>
-                            <li><a href="about-us.html#promises">Our Promises</a></li>
-                            <li><a href="super-accountant.html">The Super Accountant</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="about-us.php#ethos">Our Company</a></li>
+                            <li><a href="about-us.php#promises">Our Promises</a></li>
+                            <li><a href="super-accountant.php">The Super Accountant</a></li>
                         </ul>
                     </li>
                     <!--SERVICES -->
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">Services <span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="how-we-help.html">Services</a></li>
-                            <li><a href="how-we-help.html#compliance">Compliance</a></li>
-                            <li><a href="how-we-help.html#time-saving">Time-Saving</a></li>
-                            <li><a href="how-we-help.html#value-added">Giving You More</a></li>
+                            <li><a href="how-we-help.php">Services</a></li>
+                            <li><a href="how-we-help.php#compliance">Compliance</a></li>
+                            <li><a href="how-we-help.php#time-saving">Time-Saving</a></li>
+                            <li><a href="how-we-help.php#value-added">Giving You More</a></li>
                         </ul>
                     </li>
                     <!-- WHO WE HELP -->
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">Expertise <span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="who-we-help.html">Here For You</a></li>
-                            <li><a href="who-we-help.html#who-we-help">Who We Help</a></li>
-                            <li><a href="team.html">The Team</a></li>
+                            <li><a href="who-we-help.php">Here For You</a></li>
+                            <li><a href="who-we-help.php#who-we-help">Who We Help</a></li>
+                            <li><a href="team.php">The Team</a></li>
                             <li class="divider"> </li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="testimonials.php">Testimonials</a></li>
                         </ul>
                     </li>
                     <!-- CONTACT -->
-                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="contact-us.php">Contact</a></li>
                     <!-- GROWTH -->
                     <li class="dropdown">
                         <a data-toggle="dropdown" class="dropdown-toggle" href="#">Grow Your Business <span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
-                            <li><a href="business-growth.html">Business Growth System</a></li>
-                            <li><a href="business-builder.html">Free Business Builder Newsletter</a></li>
+                            <li><a href="business-growth.php">Business Growth System</a></li>
+                            <li><a href="business-builder.php">Free Business Builder Newsletter</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -239,7 +239,7 @@ include 'admin/var.php';
                 <div class="clearfix"></div>
 
                 <div class="text-center">
-                    <a href="testimonials.html" class="btn btn-success btn-md more">More Comments from Clients</a>
+                    <a href="testimonials.php" class="btn btn-success btn-md more">More Comments from Clients</a>
                 </div>
             </div>
         </div>
@@ -338,7 +338,7 @@ include 'admin/var.php';
         
                         <div class="row">
                             <div class="text-center">
-                                <a class="btn btn-info btn-lg more" href="how-we-help.html"><em class="icon-info-sign"></em> HOW WE HELP</a>
+                                <a class="btn btn-info btn-lg more" href="how-we-help.php"><em class="icon-info-sign"></em> HOW WE HELP</a>
                             </div>
                         </div>
 
@@ -370,7 +370,7 @@ include 'admin/var.php';
         
                     <div class="row">
                         <div class="text-center">
-                            <a class="btn btn-info btn-lg more" href="super-accountant.html"><em class="icon-info-sign"></em> OUR ETHOS</a>
+                            <a class="btn btn-info btn-lg more" href="super-accountant.php"><em class="icon-info-sign"></em> OUR ETHOS</a>
                         </div>
                     </div>
 
@@ -393,7 +393,7 @@ include 'admin/var.php';
 
                     <div class="row">
                         <div class="text-center">
-                            <a class="btn btn-info btn-lg more" href="business-growth.html"><em class="icon-info-sign"></em> GROW YOUR FIRM</a>
+                            <a class="btn btn-info btn-lg more" href="business-growth.php"><em class="icon-info-sign"></em> GROW YOUR FIRM</a>
                         </div>
                     </div>
 
@@ -509,32 +509,32 @@ include 'admin/var.php';
                         <nav id="sitemap" role="navigation" class="col-sm-4">
                             <h4>Links</h4>
                             <ul>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="team.html">The Team</a></li>
-                                <li><a href="super-accountant.html">Super Accountant</a></li>
-                                <li><a href="how-we-help.html">Services</a></li>
-                                <li><a href="testimonials.html">Testimonials</a></li>
-                                <li><a href="business-builder.html">Business Builder</a></li>
+                                <li><a href="about-us.php">About Us</a></li>
+                                <li><a href="team.php">The Team</a></li>
+                                <li><a href="super-accountant.php">Super Accountant</a></li>
+                                <li><a href="how-we-help.php">Services</a></li>
+                                <li><a href="testimonials.php">Testimonials</a></li>
+                                <li><a href="business-builder.php">Business Builder</a></li>
                             </ul>
                             <h4>Legal</h4>
                             <ul>
-                                <li><a href="legals.html#privacy">Privacy Policy</a></li>
-                                <li><a href="legals.html#anti-spam">Anti-Spam Policy</a></li>
-                                <li><a href="legals.html#disclaimer">Disclaimer</a></li>
+                                <li><a href="legals.php#privacy">Privacy Policy</a></li>
+                                <li><a href="legals.php#anti-spam">Anti-Spam Policy</a></li>
+                                <li><a href="legals.php#disclaimer">Disclaimer</a></li>
                             </ul>
                         </nav>
         
                         <nav role="navigation" class="col-sm-4">
                             <h4>Expertise</h4>
                             <ul>
-                                <li><a href="who-we-help.html">Here For You</a></li>
-                                <li><a href="who-we-help.html#who-we-help">Our Clients</a></li>
+                                <li><a href="who-we-help.php">Here For You</a></li>
+                                <li><a href="who-we-help.php#who-we-help">Our Clients</a></li>
                             </ul>
                             <h4>How We Can Help</h4>
                             <ul>
-                                <li><a href="how-we-help.html#time-saving">Saving You Time</a></li>
-                                <li><a href="how-we-help.html#compliance">Keeping Your Business Compliant</a></li>
-                                <li><a href="how-we-help.html#value-added">Giving You More</a></li>
+                                <li><a href="how-we-help.php#time-saving">Saving You Time</a></li>
+                                <li><a href="how-we-help.php#compliance">Keeping Your Business Compliant</a></li>
+                                <li><a href="how-we-help.php#value-added">Giving You More</a></li>
                                 <li><a href="#meeting">Meet With Us</a></li>
                             </ul>
                         </nav>
