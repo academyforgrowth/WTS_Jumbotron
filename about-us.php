@@ -49,7 +49,7 @@ include 'admin/var.php';
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
                 </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
+                <a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
             </div>
 
             <div class="collapse navbar-collapse navbar-ex1-collapse">
@@ -58,10 +58,10 @@ include 'admin/var.php';
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="about-us.html#ethos">Our Company</a></li>
-                            <li><a href="about-us.html#promises">Our Promises</a></li>
-                            <li><a href="super-accountant.html">The Super Accountant</a></li>
+                            <li><a href="about-us.php">About Us</a></li>
+                            <li><a href="about-us.php#ethos">Our Company</a></li>
+                            <li><a href="about-us.php#promises">Our Promises</a></li>
+                            <li><a href="super-accountant.php">The Super Accountant</a></li>
                         </ul>
                     </li>
 
@@ -69,10 +69,10 @@ include 'admin/var.php';
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="how-we-help.html">Services</a></li>        
-                            <li><a href="how-we-help.html#compliance">Compliance</a></li>
-                            <li><a href="how-we-help.html#time-saving">Time-Saving</a></li>
-                            <li><a href="how-we-help.html#value-added">Giving You More</a></li>
+                            <li><a href="how-we-help.php">Services</a></li>        
+                            <li><a href="how-we-help.php#compliance">Compliance</a></li>
+                            <li><a href="how-we-help.php#time-saving">Time-Saving</a></li>
+                            <li><a href="how-we-help.php#value-added">Giving You More</a></li>
                         </ul>   
                     </li>
                     
@@ -80,21 +80,21 @@ include 'admin/var.php';
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Expertise <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">      
-                            <li><a href="who-we-help.html">Here For You</a></li>
-                            <li><a href="who-we-help.html#who-we-help">Who We Help</a></li>
-                            <li><a href="team.html">The Team</a></li>
+                            <li><a href="who-we-help.php">Here For You</a></li>
+                            <li><a href="who-we-help.php#who-we-help">Who We Help</a></li>
+                            <li><a href="team.php">The Team</a></li>
                             <li class="divider"></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
+                            <li><a href="testimonials.php">Testimonials</a></li>
                         </ul>   
                     </li>               
                     <!-- CONTACT US -->
-                    <li><a href="contact-us.html">Contact</a></li>
+                    <li><a href="contact-us.php">Contact</a></li>
                     <!-- GROWTH -->
                     <li class="dropdown">
                         <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grow Your Business <span class="caret"></span></a>
                         <ul class="dropdown-menu" role="menu">
-                            <li><a href="business-growth.html">Business Growth System</a></li>
-                            <li><a href="business-builder.html">Free Business Builder Newsletter</a></li>
+                            <li><a href="business-growth.php">Business Growth System</a></li>
+                            <li><a href="business-builder.php">Free Business Builder Newsletter</a></li>
                         </ul>
                     </li>
                 </ul>
@@ -201,12 +201,12 @@ include 'admin/var.php';
                         We Put You First. We want to create a relationship, to help your business compete and thrive, so that YOU, our client, see us as <strong>a valuable asset to your business.</strong> 
                     </p>
                     <p class="lead">
-                        To find out more about how working with a Super Accountant can benefit your business, call our friendly team on <span class="text-danger">0123 456 789</span> to arrange a free no-obligation meeting, or for a little more information on the lengths we go to for our clients, take a few moments of your time to <a href="index.html">Watch Our Video</a>.
+                        To find out more about how working with a Super Accountant can benefit your business, call our friendly team on <span class="text-danger">0123 456 789</span> to arrange a free no-obligation meeting, or for a little more information on the lengths we go to for our clients, take a few moments of your time to <a href="index.php">Watch Our Video</a>.
                     </p>
                 
                     <div class="row">
                         <div class="col-md-6">
-                            <a href="services.html" class="btn btn-info btn-block btn-lg"><i class="icon-info-sign"></i> OUR SERVICES</a>
+                            <a href="services.php" class="btn btn-info btn-block btn-lg"><i class="icon-info-sign"></i> OUR SERVICES</a>
                         </div>
                     </div>
                 </div>
@@ -358,8 +358,8 @@ include 'admin/var.php';
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.html">watch this video</a> and see the difference a Super Accountant can make to your business! Remember, you can meet with us for free, with no-obligation to become our client. We'll even donate £100 to your favourite charity if you don't feel that the meeting was worth your while.</p>
-                            <p class="undecided text-center">So what have you got to lose? Call us direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find other ways to get in touch <a href="contact-us.html">here</a>.</p>
+                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super Accountant can make to your business! Remember, you can meet with us for free, with no-obligation to become our client. We'll even donate £100 to your favourite charity if you don't feel that the meeting was worth your while.</p>
+                            <p class="undecided text-center">So what have you got to lose? Call us direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find other ways to get in touch <a href="contact-us.php">here</a>.</p>
                         </div> 
                         <div class="text-center col-md-6 col-md-offset-3">
                             <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>
@@ -451,32 +451,32 @@ include 'admin/var.php';
                         <nav id="sitemap" role="navigation" class="col-sm-4">
                             <h4>Links</h4>
                             <ul>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="team.html">The Team</a></li>
-                                <li><a href="super-accountant.html">Super Accountant</a></li>
-                                <li><a href="how-we-help.html">Services</a></li>
-                                <li><a href="testimonials.html">Testimonials</a></li>
-                                <li><a href="business-builder.html">Business Builder</a></li>
+                                <li><a href="about-us.php">About Us</a></li>
+                                <li><a href="team.php">The Team</a></li>
+                                <li><a href="super-accountant.php">Super Accountant</a></li>
+                                <li><a href="how-we-help.php">Services</a></li>
+                                <li><a href="testimonials.php">Testimonials</a></li>
+                                <li><a href="business-builder.php">Business Builder</a></li>
                             </ul>
                             <h4>Legal</h4>
                             <ul>
-                                <li><a href="legals.html#privacy">Privacy Policy</a></li>
-                                <li><a href="legals.html#anti-spam">Anti-Spam Policy</a></li>
-                                <li><a href="legals.html#disclaimer">Disclaimer</a></li>
+                                <li><a href="legals.php#privacy">Privacy Policy</a></li>
+                                <li><a href="legals.php#anti-spam">Anti-Spam Policy</a></li>
+                                <li><a href="legals.php#disclaimer">Disclaimer</a></li>
                             </ul>
                         </nav>
         
                         <nav role="navigation" class="col-sm-4">
                             <h4>Expertise</h4>
                             <ul>
-                                <li><a href="who-we-help.html">Here For You</a></li>
-                                <li><a href="who-we-help.html#who-we-help">Our Clients</a></li>
+                                <li><a href="who-we-help.php">Here For You</a></li>
+                                <li><a href="who-we-help.php#who-we-help">Our Clients</a></li>
                             </ul>
                             <h4>How We Can Help</h4>
                             <ul>
-                                <li><a href="how-we-help.html#time-saving">Saving You Time</a></li>
-                                <li><a href="how-we-help.html#compliance">Keeping Your Business Compliant</a></li>
-                                <li><a href="how-we-help.html#value-added">Giving You More</a></li>
+                                <li><a href="how-we-help.php#time-saving">Saving You Time</a></li>
+                                <li><a href="how-we-help.php#compliance">Keeping Your Business Compliant</a></li>
+                                <li><a href="how-we-help.php#value-added">Giving You More</a></li>
                                 <li><a href="#meeting">Meet With Us</a></li>
                             </ul>
                         </nav>
