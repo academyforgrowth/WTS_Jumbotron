@@ -60,6 +60,10 @@ $address = 'Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG';
 
 $location = 'Kingston-upon-thames';
 
+$country = 'Country';
+
+$reg = '#00000000';
+
 /******************************
  ** 2. =Team
  ******************************/
