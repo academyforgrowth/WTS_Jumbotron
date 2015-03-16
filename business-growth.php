@@ -173,7 +173,7 @@ include 'admin/var.php';
             
                 <div class="col-12 col-lg-12 text-center">
                     <div class="page-header">
-                        <h1>If You Are Looking To Grow Your Business, We Have THE Solution..</h1>
+                        <h1>If You Are Looking To Grow Your Business, We Have THE Solution...</h1>
                         <h2>The Business Growth System</h2>
                     
                         <p class="lead">We know from experience that most of our business clients would benefit from more sales, more customers and more profits. Indeed, many of the decisions the small business owner must make, would be made simpler if their business could attract more income. So after much deliberation, we have invested a significant sum in sponsoring <span class="text-info">The Business Growth System</span> - one of the world's most successful sales &amp; marketing systems.</p>

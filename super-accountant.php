@@ -132,7 +132,7 @@ include 'admin/var.php';
                         <h2 class="headline">THE SUPER ACCOUNTANT</h2>
                         <hr>
                         <p class="lead">
-                            You won't find another accountant like us..<em> we guarantee it!</em>
+                            You won't find another accountant like us...<em> we guarantee it!</em>
                         </p>
                         <p>
                             One of the World's Leading Sales &AMP; Marketing Systems... is <strong>FREE</strong> to all our clients 
@@ -199,7 +199,7 @@ include 'admin/var.php';
 					   FIXED FEES
 				    </h3>
 				    <p>
-					   When you become our client, you can wave goodbye to those unreasonable extra fees and charges that so many accountants are guilty of..
+					   When you become our client, you can wave goodbye to those unreasonable extra fees and charges that so many accountants are guilty of...
 				    </p>
 				    <p>
 					   That's because <strong>all of our fees are fixed</strong>, so you'll never get any nasty surprises. To prevent you from getting a bill at the end of each year, you can pay us in <strong>a low, manageable monthly fee</strong> , helping you with your cash flow.
@@ -211,7 +211,7 @@ include 'admin/var.php';
                         <img src="images/filing.png" width="100" height="100" alt=""/>
                     </div>
 				    <h3 class="height-level">
-					   YOUR FILING DEADLINES MET.. GUARANTEED
+					   YOUR FILING DEADLINES MET... GUARANTEED
 				    </h3>
 				    <p>
 					   Neither will you have to worry about key filing deadlines, because if in the very unlikely event we miss one, <strong>we'll pay ALL of the fines <em>AND give you £250 for the inconvenience</em></strong>

@@ -131,7 +131,7 @@ include 'admin/var.php';
                         <h2 class="headline">WHAT OUR CLIENTS SAY</h2>
                         <hr>
                         <p class="lead">Of Course, we think we do a <strong><em>great job for our clients</em></strong></p>
-                        <p>.. but we understand if you would rather <strong><em>hear it from them..</em></strong></p>
+                        <p>... but we understand if you would rather <strong><em>hear it from them...</em></strong></p>
 					   <h2><span class="standout">Call 0123 456 789</span></h2> 
                     </div>
 			

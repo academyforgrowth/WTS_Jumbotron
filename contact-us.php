@@ -133,7 +133,7 @@ include 'admin/var.php';
                         <h2 class="headline">CONTACT US</h2>
                         <hr>
                         <p class="lead">
-                            Call, Email or Write To Us.. We're here for <strong>you</strong>
+                            Call, Email or Write To Us... We're here for <strong>you</strong>
                         </p>
                         <hr>
                         <h2><span class="standout">Call 0123 456 789</span></h2>                    

@@ -187,7 +187,7 @@ include 'admin/var.php';
 
             <div class="row">
 
-                <p class="lead separator">.. and we are here to help <strong>business owners</strong> who are..</p>
+                <p class="lead separator">... and we are here to help <strong>business owners</strong> who are...</p>
                 
                 <div class="row">
                     
@@ -197,7 +197,7 @@ include 'admin/var.php';
                             <i class="icon-ok-sign icon-4x text-info"></i> 
                         </div>   
                         <div class="col-xs-9 col-sm-9 col-md-10 col-lg-10"> 
-                            <p class="list-item text-left"><strong>Ambitious &amp; Entrepreneurial -</strong> The only limit is your ambition. We'll provide the structure for you to get to the next level, and the next, and the next..</p> 
+                            <p class="list-item text-left"><strong>Ambitious &amp; Entrepreneurial -</strong> The only limit is your ambition. We'll provide the structure for you to get to the next level, and the next, and the next...</p> 
                         </div>
 
                     </div>

@@ -124,7 +124,7 @@ include 'admin/var.php';
                     <div class="text-right col-sm-5">
                         <h2 class="headline">THE TEAM</h2>
                         <hr>
-                        <p class="lead">The Team Is About More Than Just Us..</p>
+                        <p class="lead">The Team Is About More Than Just Us...</p>
                         <p>The Team is About A Relationship Between <strong>Us <u>and</u> YOU</strong></p>
                         <hr>
                         <h2><span class="standout">Call 0123 456 789</span></h2>

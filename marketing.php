@@ -151,7 +151,7 @@ include 'admin/var.php';
                     <div class="vertalign text-right col-xs-12 col-sm-5 col-md-offset-1 col-md-4">
                         <h2 class="headline">DISCOVER THE ACCOUNTANT WHO CAN GROW YOUR BUSINESS AND SAVE YOU MONEY</h2>
                         <hr />
-                        <p class="lead">Grow. Save Tax. Increase Profits. <em>Relax..</em></p>
+                        <p class="lead">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
                         <p>Call Us Today To Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
                         <hr />
                         <h2 class="text-right"><span class="standout">Call 0123 456 789</span></h2>
@@ -328,7 +328,7 @@ include 'admin/var.php';
                     <img alt="Logo" src="images/logobig.png" class="img-responsive img-mobile" />
                     <!--</div>-->
                 </div>
-                <h2 class="text-center section head">KEEPING YOU COMPLIANT.. SAVING YOU TIME.. SAVING YOU MONEY.. AND SO MUCH MORE</h2>
+                <h2 class="text-center section head">KEEPING YOU COMPLIANT... SAVING YOU TIME... SAVING YOU MONEY... AND SO MUCH MORE</h2>
                 
                 <div class="row">
                     <div class="vertalign text-left col-xs-12 col-md-6">

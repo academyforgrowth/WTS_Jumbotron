@@ -331,7 +331,7 @@ include 'admin/var.php';
                         Our Time-Saving services are the things we can do to make your life easier.
                     </p>
                     <p> 
-                        Why waste your time and resources on chores, when we can take care of the whole thing for you - properly, efficiently and cost-effectively..</p>
+                        Why waste your time and resources on chores, when we can take care of the whole thing for you - properly, efficiently and cost-effectively...</p>
                     <p> 
                         We take the time to understand your business and recommend a bundle of services to meet your budget and needs, taking the distraction away from you, and allowing you and your team to get on with building your business. All to an <strong>agreed, fixed fee rolled into your normal monthly payments.</strong></p>
                     <p>

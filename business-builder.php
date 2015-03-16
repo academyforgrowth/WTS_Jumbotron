@@ -127,7 +127,7 @@ include 'admin/var.php';
                         <h2 class="headline">THE BUSINESS BUILDER NEWSLETTER</h2>
                         <hr>
                         <p class="lead">
-                            Innovative Ideas &amp; Practical Advice To Give Small Business Owners The Edge..
+                            Innovative Ideas &amp; Practical Advice To Give Small Business Owners The Edge...
                         </p>
                         <p>
                             <a class="header-link" href="#business-builder-form" alt="Sign up for the Business Builder Newsletter">Sign up Today</a> 
