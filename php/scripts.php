@@ -7,9 +7,6 @@
     <script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript"></script>
     <script src="assets/js/jquery.localscroll-1.2.7-min.js" type="text/javascript"></script>
     <script src="assets/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript"></script>
-    <!-- responsive video-->
-    <script type="text/javascript" src="http://afg.evsuite.com/player/QUZHLVBvdW5kcy1Oby1Cb29rLU1vYmlsZS01MTJ4Mjg4Lm1wNA==/?responsive=1&autoResponsive=1&profile=uk-example-site&container=evp-7Q3R2TINP0"></script>
-    <!-- / responsive video-->
         
     <!--loCAL sCROLL -->
     
@@ -46,6 +43,12 @@
         }
         );
     </script>
+
+    <!-- Google Analytics Code -->
+    <?php include ("admin/analytics.php"); ?>
+
+    <!-- Google Remarketing Code -->
+    <?php include ("admin/remarketing.php"); ?>
         
     <!-- saved from url http://www.bootstraptor.com ==========================
     Don't remove this attribution!
