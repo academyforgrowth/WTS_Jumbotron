@@ -25,7 +25,7 @@ include 'admin/var.php';
                 <div class="row">
                     
                     <div class="vertalign col-sm-6" >
-                        <img class="img-responsive hidden-xs" src="images/newsletter_cover.png" alt="Sign up for regular newsletter, packed full of helpful advice for the small business owner" />
+                        <img class="img-responsive hidden-xs" src="admin/img/newsletter_cover.png" alt="Sign up for regular newsletter, packed full of helpful advice for the small business owner" />
                     </div>
 
                     <!--  description-->

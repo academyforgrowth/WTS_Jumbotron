@@ -6,7 +6,7 @@
                 <!-- MAP START -->
                 <div class="col-sm-5 col-md-4 map">
                     <div class="embed-responsive embed-responsive-4by3">
-                        <iframe frameborder="0" style="border: 0px none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.14245968236!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407503223429" class="embed-responsive-item"></iframe>
+                        <?php echo $map1; ?>
                     </div>
                 </div>
                 <!-- MAP END -->
@@ -20,12 +20,11 @@
                             <!--Address-->
                             <address id="contact">
                                 <h5><?php echo $company_name; ?></h5>
-                                Address Line 1<br />
-                                Address Line 2<br />
-                                Suburb or District<br />
-                                Town or City<br />
-                                State, County or Province<br />
-                                Zip or Post Code
+                                <?php echo $address_line1; ?><br />
+                                <?php echo $address_line2; ?><br />
+                                <?php echo $address_line3; ?><br />
+                                <?php echo $address_line4; ?><br />
+                                <?php echo $address_line5; ?><br />
                                 <!--Phone Number -->
                                 <p><abbr title="Phone">Tel:</abbr> <?php echo $phone; ?></p>
                             </address>

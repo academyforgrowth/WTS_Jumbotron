@@ -157,7 +157,7 @@ include 'admin/var.php';
                     <!-- / description-->
         
                     <div class="vertalign col-xs-12 col-md-6">
-                        <img alt="" src="images/logobig.png" class="img-responsive hidden-xs hidden-sm" />
+                        <img alt="" src="admin/img/logobig.png" class="img-responsive hidden-xs hidden-sm" />
                     </div>
                 </div>
             </div>

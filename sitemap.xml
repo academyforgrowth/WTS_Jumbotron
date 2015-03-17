@@ -1,8 +1,15 @@
 Page Name				URL
 
-Index					index.html
-Marketing				marketing.html
-The Super Accountant	super-accountant.html
-Who We Help				who-we-help.html
-Services				services.html
-How We Help 			how-we-help.html
+Index					index.php
+Marketing				marketing.php
+The Super Accountant	super-accountant.php
+Who We Help				who-we-help.php
+Services				services.php
+How We Help 			how-we-help.php
+About Us                about-us.php
+Business Builder        business-builder.php
+Business Growth         business-growth.php
+Contact Us              contact-us.php
+Legals                  legals.php
+Team                    team.php
+Testimonials            testimonials.php

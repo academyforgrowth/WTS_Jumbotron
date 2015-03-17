@@ -137,7 +137,7 @@ include 'admin/var.php';
                 <!-- FEATURE 1 -->
                 <!--  description-->
                 <div class="visible-xs visible-sm">
-                    <img alt="Logo" src="images/logobig.png" class="img-responsive img-mobile" />
+                    <img alt="Logo" src="admin/img/logobig.png" class="img-responsive img-mobile" />
                     <!--</div>-->
                 </div>
                 <h2 class="text-center section head">KEEPING YOU COMPLIANT... SAVING YOU TIME... SAVING YOU MONEY... AND SO MUCH MORE</h2>
