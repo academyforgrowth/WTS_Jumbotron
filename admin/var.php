@@ -7,9 +7,7 @@
 // 2. =Team
 // 3. =Services
 // 4. =Testimonials
-// 5. =Swarm
-// 6. =Association Logo Links
-// 7. =Multiple Locations
+// 5. =Multiple Locations
 
 
 
@@ -32,18 +30,6 @@ $business_5 = 'Accounting'; // start with capital letter
 $policy_date = '00/00/0000';
 
 
-$nav_menu = array (
-
-'Home' => 'index.php',
-'Why Us?' => '#about',
-'Business Growth' => '#growth',
-'Our Team' => '#team',
-'Services' => '#services',
-'Testimonials' => '#testimonials',
-'Subscribe' => '#subscribe',
-
-);
-
 /******************************
  ** 1. =Contact
  ******************************/
@@ -54,16 +40,21 @@ $email = 'support@academyforgrowth.co.uk';
 
 $phone = '0123 456 789';
 
-$fax1 = false; // Set to true to activate fax number on site.
-$fax_1 = '0123 456 789';
-
-$address = 'Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG';
+$address_line1 = 'Suites 1-10';
+$address_line2 = 'Springfield House';
+$address_line3 = 'Water Lane';
+$address_line4 = 'Wilmslow';
+$address_line5 = 'SK9 5BG';
 
 $location = 'Kingston-upon-thames';
 
 $country = 'Country';
 
 $reg = '#00000000';
+
+$opening_hours = '08:00am - 05:30pm';
+
+$map1 = '<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.14245968236!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407503223429" frameborder="0" style="border: 0px;"></iframe>';
 
 /******************************
  ** 2. =Team
@@ -129,49 +120,31 @@ $testimonial_client6 = 'John Doe &ndash; company.com';
 $headline6 = 'Headline';
 $testimonial6 = 'Voluptatem quia voluptas sit aspernatur aut odit aut fugit quia consequuntur magni. Perspiciatis unde omnis iste natus error morbi voluptatem dolores eos qui ratione voluptatem nesciunt.';
 
-/******************************
- ** 5. =Swarm
- ******************************/
-
-// SWARM MEMBERS ONLY
-
-$social = true; // Set to false for no social media.
-
-
-$twitter = 'http://www.twitter.com';
-$linkedin = 'http://www.linkedin.com';
-$googleplus = 'http://www.plus.google.com';
-$facebook = 'http://www.facebook.com';
 
 /******************************
- ** 6. =Assocation Logo Links
+ ** 5. =Multiple Locations
  ******************************/
 
-// 'COMMENT OUT' ANY UNREQUIRED ASSOC LOGOS IN THE ARRAY BELOW.
-//  OR - ADD ADDITIONAL ASSOC LOGOS BENEATH (for more than 6).
-// 		
-// IF ASSOCATION LOGOS DO NOT REQUIRE LINKS, LEAVE AS '#'.
+$location2 = 'Location';
+$location3 = 'Location';
 
-$assoc_logo = array (
+$address2 = false; // Set to true to activate second address.
+$address2_line1 = 'Suites 1-10';
+$address2_line2 = 'Springfield House';
+$address2_line3 = 'Water Lane';
+$address2_line4 = 'Wilmslow';
+$address2_line5 = 'SK9 5BG';
 
-'<img src="images/assoc/assoclogo1.png">' => '#',
-'<img src="images/assoc/assoclogo2.png">' => '#',
-'<img src="images/assoc/assoclogo3.png">' => '#',
-'<img src="images/assoc/assoclogo4.png">' => '#',
-'<img src="images/assoc/assoclogo5.png">' => '#',
-'<img src="images/assoc/assoclogo6.png">' => '#',
-);
+$map2 = '<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.14245968236!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407503223429" frameborder="0" style="border: 0px;"></iframe>';
 
-/******************************
- ** 7. =Multiple Locations
- ******************************/
+$address3 = true; // Set to true to activate third address and set address2 to be false!.
+$address3_line1 = 'Suites 1-10';
+$address3_line2 = 'Springfield House';
+$address3_line3 = 'Water Lane';
+$address3_line4 = 'Wilmslow';
+$address3_line5 = 'SK9 5BG';
 
-$address2 = false; // Set to true to activate second address in footer.
-$address_2 = 'Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG';
-$address3 = false; // Set to true to activate third address in footer.
-$address_3 = 'Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG';
-$address4 = false; // Set to true to activate fourth address in footer.
-$address_4 = 'Suites 1-10, Springfield House, Water Lane, Wilmslow, SK9 5BG';
+$map3 = '<iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.14245968236!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407503223429" frameborder="0" style="border: 0px;"></iframe>';
 
 $phone2 = false; // Set to true to activate second phone number on site.
 $phone_2 = '0123 456 789';
