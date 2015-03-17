@@ -13,75 +13,7 @@ include 'admin/var.php';
 <body>
     
     <!-- NAV -->
-    <nav id="topnav" class="navbar navbar-default navbar-fixed-top " role="navigation">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.php"><img src="images/logo.png"></a>
-            </div>
-
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- ABOUT -->              
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="about-us.php">About Us</a></li>
-                            <li><a href="about-us.php#ethos">Our Company</a></li>
-                            <li><a href="about-us.php#promises">Our Promises</a></li>
-                            <li><a href="super-accountant.php">The Super Accountant</a></li>
-                        </ul>
-                    </li>
-                    <!--SERVICES -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="how-we-help.php">Services</a></li>        
-                            <li><a href="how-we-help.php#compliance">Compliance</a></li>
-                            <li><a href="how-we-help.php#time-saving">Time-Saving</a></li>
-                            <li><a href="how-we-help.php#value-added">Giving You More</a></li>
-                        </ul>   
-                    </li>
-                    <!-- WHO WE HELP -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Expertise <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">      
-                            <li><a href="who-we-help.php">Here For You</a></li>
-                            <li><a href="who-we-help.php#who-we-help">Who We Help</a></li>
-                            <li><a href="team.php">The Team</a></li>
-                            <li class="divider"></li>
-                            <li><a href="testimonials.php">Testimonials</a></li>
-                        </ul>   
-                    </li>
-                    <!-- CONTACT US -->
-                    <li><a href="contact-us.php">Contact</a></li>
-                    <!-- GROWTH -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grow Your Business <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="business-growth.php">Business Growth System</a></li>
-                            <li><a href="business-builder.php">Free Business Builder Newsletter</a></li>
-                        </ul>
-                    </li>
-                </ul>
-            
-                <div class="nav navbar-nav navbar-right">
-                    <a href="tel:0123 456 789"><span class="phone"><i class="icon-phone"></i>0123 456 789</span></a> 
-                    <a href="#meeting" class="btn btn-danger navbar-btn">FREE Meeting</a> 
-                </div>
-
-            </div>
-            <!-- /.navbar-collapse --> 
-        </div>  
-    </nav>
-
+    <?php include ("php/nav.php"); ?>
     <!-- END NAV -->
 
     <!-- MAIN HEADER -->  
@@ -107,7 +39,7 @@ include 'admin/var.php';
                             <a class="header-link" href="#business-builder-form" alt="Sign up for the Business Builder Newsletter">Sign up Today</a> 
                         </p>
                         <hr>
-                        <h2><span class="standout">Call 0123 456 789</span></h2>                    
+                        <h2><span class="standout">Call <?php echo $phone; ?></span></h2>                    
                     </div>
                     <!--end headline column-->
                 
@@ -222,7 +154,7 @@ include 'admin/var.php';
                         <ul>
                             <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
                             <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong>£100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
+                            <li><strong><?php echo $currency; ?>100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
                         </ul>
                     </div>
 
@@ -285,7 +217,7 @@ include 'admin/var.php';
                         
                         <div class="col-lg-offset-2 col-lg-8">
                             <p class="undecided text-center">Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super Accountant can make to your business!</p>
-                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.php">here</a></p>
+                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a> OR you can find our contact details <a href="contact-us.php">here</a></p>
                         </div> 
                         <div class="text-center col-md-6 col-md-offset-3">
                             <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>

@@ -73,11 +73,11 @@ include 'admin/var.php';
 
                 <div class="col-12 col-lg-12 text-center">
                     <div class="page-header">
-                        <h3 class="section-head">Anti-Spam Policy - Effective Date: 09/09/9999</h3>
-                        <p>Company Name is strongly opposed to SPAM</p> 
+                        <h3 class="section-head">Anti-Spam Policy - Effective Date: <?php echo $policy_date; ?></h3>
+                        <p><?php echo $company_name; ?> is strongly opposed to SPAM</p> 
                         <p>We provide free special reports and newsletters, no-obligation meeting requests and other products and services but ONLY to those who sign up for them. </p>
                         <p>All these lists can be opted-out of at any time.</p> 
-                        <p>Company Name NEVER share or sell its e-mail lists to third parties. </p>
+                        <p><?php echo $company_name; ?> NEVER share or sell its e-mail lists to third parties. </p>
                         <p>Each email that you receive from us has simple instructions on how to unsubscribe from our e-mail list.</p>
                         <p>If you have any questions regarding our e-mail policy, please get in touch with us via our <a href="contact-us.php">Contact Us</a> page, or in writing to this address.</p>
                     </div>

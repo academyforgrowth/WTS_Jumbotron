@@ -38,7 +38,7 @@ include 'admin/var.php';
                         <p class="lead">With Our Expertise, Your Business Can Be An Even More Powerful Force</p>
                         <p>Call Today and find out <strong>why we are different</strong></p>
                         <hr>
-                        <h2><span class="standout">Call 0123 456 789</span></h2>   
+                        <h2><span class="standout">Call <?php echo $phone; ?></span></h2>   
                     </div>
 
                 </div>
@@ -108,7 +108,7 @@ include 'admin/var.php';
                         We Put You First. We want to create a relationship, to help your business compete and thrive, so that YOU, our client, see us as <strong>a valuable asset to your business.</strong> 
                     </p>
                     <p class="lead">
-                        To find out more about how working with a Super Accountant can benefit your business, call our friendly team on <span class="text-danger">0123 456 789</span> to arrange a free no-obligation meeting, or for a little more information on the lengths we go to for our clients, take a few moments of your time to <a href="index.php">Watch Our Video</a>.
+                        To find out more about how working with a Super Accountant can benefit your business, call our friendly team on <span class="text-danger"><?php echo $phone; ?></span> to arrange a free no-obligation meeting, or for a little more information on the lengths we go to for our clients, take a few moments of your time to <a href="index.php">Watch Our Video</a>.
                     </p>
                 
                     <div class="row">
@@ -160,7 +160,7 @@ include 'admin/var.php';
                             <i class="icon-ok-sign icon-4x text-danger"></i> 
                         </div>
                         <div class="col-xs-8 col-sm-9 col-md-10 col-lg-10"> 
-                            <p class="list-item">We promise to meet all your key filing deadlines, <em>on time, every time,</em>  or we will <strong>pay any fines you are subjected to <u>AND</u> give you £250 for the inconvenience</strong></p> 
+                            <p class="list-item">We promise to meet all your key filing deadlines, <em>on time, every time,</em>  or we will <strong>pay any fines you are subjected to <u>AND</u> give you <?php echo $currency; ?>250 for the inconvenience</strong></p> 
                         </div>
 
                     </div>
@@ -173,7 +173,7 @@ include 'admin/var.php';
                 </div>
 
                 <div class="row">
-                    <p class="lead conclusion text-center">Because that's the type of accountants we are</p>
+                    <p class="lead conclusion text-center">Because that's the type of <?php echo $business_3; ?>s we are</p>
                 </div>    
     
             </div>
@@ -187,7 +187,7 @@ include 'admin/var.php';
 
     <section id="clinch">
         <div class="container">
-            <p class="text-center">Of course, you will never know for certain whether we will get along - or indeed what we can do for your business - until you meet with us. Call Us Today on <span class="text-danger">0123 456 789</span> or fill out our form below (it only takes one minute!), to arrange your <span class="text-danger emp">FREE, No-Obligation Meeting.</span>
+            <p class="text-center">Of course, you will never know for certain whether we will get along - or indeed what we can do for your business - until you meet with us. Call Us Today on <span class="text-danger"><?php echo $phone; ?></span> or fill out our form below (it only takes one minute!), to arrange your <span class="text-danger emp">FREE, No-Obligation Meeting.</span>
             </p>
         </div>
     </section>
@@ -207,7 +207,7 @@ include 'admin/var.php';
                         <ul>
                             <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
                             <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong>£100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
+                            <li><strong><?php echo $currency; ?>100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
                         </ul>
                     </div>
 
@@ -265,8 +265,8 @@ include 'admin/var.php';
                 <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                     <div class="row">
                         <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super Accountant can make to your business! Remember, you can meet with us for free, with no-obligation to become our client. We'll even donate £100 to your favourite charity if you don't feel that the meeting was worth your while.</p>
-                            <p class="undecided text-center">So what have you got to lose? Call us direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find other ways to get in touch <a href="contact-us.php">here</a>.</p>
+                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super Accountant can make to your business! Remember, you can meet with us for free, with no-obligation to become our client. We'll even donate <?php echo $currency; ?>100 to your favourite charity if you don't feel that the meeting was worth your while.</p>
+                            <p class="undecided text-center">So what have you got to lose? Call us direct on <a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a> OR you can find other ways to get in touch <a href="contact-us.php">here</a>.</p>
                         </div> 
                         <div class="text-center col-md-6 col-md-offset-3">
                             <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>

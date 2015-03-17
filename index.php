@@ -46,7 +46,7 @@ include 'admin/var.php';
                         <div class="container">
                             <div class="row">
                                 <div class=" col-xs-12 col-sm-9 col-md-9 col-lg-9">
-                                    <p style="padding-top: 7px;" class="lead text-danger text-center"><strong>DON'T TALK TO ANOTHER <?php echo $business_4; ?> UNTIL YOU'VE SEEN WHAT A SUPER <?php echo $business_4 ; ?> CAN DO     FOR YOU!</strong></p>
+                                    <p style="padding-top: 7px;" class="lead text-danger text-center"><strong>DON'T TALK TO ANOTHER <?php echo $business_4; ?> UNTIL YOU'VE SEEN WHAT A SUPER <?php echo $business_4 ; ?> CAN DO FOR YOU!</strong></p>
                                 </div>
                                 <div class=" text-center col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <a href="#" class="btn btn-danger btn-block btn-md">WATCH OUR VIDEO</a>

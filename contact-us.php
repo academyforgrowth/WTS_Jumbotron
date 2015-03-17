@@ -27,7 +27,7 @@ include 'admin/var.php';
                     <!--CONTACT IMAGE-->
                     <div class="vertalign col-xs-12 col-sm-12 hidden-md hidden-lg">
                         <!-- IMAGE HERE -->
-                        <img class="img-responsive img-mobile" src="images/contactmap.png" alt="Contact Our Friendly Team, ready for all of your tax, accounting and financial needs">
+                        <img class="img-responsive img-mobile" src="images/contactmap.png" alt="Contact Our Friendly Team, ready for all of your tax, <?php echo $business_5; ?> and financial needs">
                         <!-- END IMAGE -->
                     </div>  
                     <div class="vertalign hidden-xs hidden-sm col-md-7">
@@ -44,7 +44,7 @@ include 'admin/var.php';
                             Call, Email or Write To Us... We're here for <strong>you</strong>
                         </p>
                         <hr>
-                        <h2><span class="standout">Call 0123 456 789</span></h2>                    
+                        <h2><span class="standout">Call <?php echo $phone; ?></span></h2>                    
                     </div>
 
                 </div>
@@ -74,169 +74,15 @@ include 'admin/var.php';
     </div>
     <!-- END CALL TO ACTION -->
 
-    <!-- LEAD SECTION -->
-
-    <section id="lead">
-        <div class="container">
-        
-            <div class="row">
-
-                <div class="col-12 col-lg-12 text-center">
-                    <div class="row page-header">
-                        <h1>Contact Company Name</h1>
-                        <h2>However you choose to get in touch, we're ready for your enquiry</h2>
-                    </div>
-                    
-                    <div class="row">
-
-                        <h2>Our Offices</h2>
-                        <ul class="inline-list" id="location-list">
-                            <!-- REMOVE LIST ITEMS BELOW AS APPROPRIATE TO REFLECT NUMBER OF OFFICES -->
-                            <li><a href="#location-1">Location</a></li>
-                            <li><a href="#location-2">Location</a></li>
-                            <li><a href="#location-3">Location</a></li>
-                        </ul>
-
-                    </div>
-
-                </div>
-
-            </div>
-        </div>
-    </section>
-    <!-- END LEAD SECTION -->
-
-    <!-- LOCATION 1 START -->
-    <section id="location-1">
-    
-        <div class="container">
-        
-            <div class="row">
-
-                <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <!-- MAP -->
-                        <iframe class="embed-responsive-item" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.14245968236!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407503223429" frameborder="0" style="border: 0px;"></iframe>
-                    </div>
-                </div>
-
-                <div class="col-md-offset-1 col-md-5">
-                    <!-- ADDRESS -->
-                    <address class="office-info">
-                        <h3>Location</h3>
-                        <h4>Company Name</h4>
-                        <p>Address Line 1<br />
-                        Address Line 2<br />
-                        Suburb or District<br />
-                        Town or City<br />
-                        State, County or Province<br />
-                        Zip or Post Code</p>
-                        <h4><abbr title="Phone">Tel:</abbr></h4>
-                        <p><a href="tel:023 456 789">0123 456 789</a></p>
-                    </address>
-                    <h4>Opening Hours</h4>
-                    <p>Mon-Fri 09:00 - 17:00</p>
-                    <div>
-                        <a href="#meeting" class="btn btn-danger btn-sm more">Request Meeting</a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-    <!-- LOCATION 1 END -->
-
-    <!-- LOCATION 2 START -->
-    <section id="location-2">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <!-- MAP -->
-                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.07122984118!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407136288113" width="600" height="450" frameborder="0" style="border: 0px;"></iframe>
-                    </div>
-                </div>
-
-                <div class="col-md-offset-1 col-md-5">
-                    <!-- ADDRESS -->
-                    <address class="office-info">
-                        <h3>Location</h3>
-                        <h4>Company Name</h4>
-                        <p>Address Line 1<br />
-                        Address Line 2<br />
-                        Suburb or District<br />
-                        Town or City<br />
-                        State, County or Province<br />
-                        Postal or Zip Code</p>
-                        <h4><abbr title="Phone">Tel:</abbr></h4>
-                        <p><a href="tel:0123 456 789">0123 456 789</a></p>
-                    </address>
-                    <h4>Opening Hours</h4>
-                    <p>Mon-Fri 09:00 - 17:00</p>  
-                    <div>
-                        <a href="#meeting" class="btn btn-danger btn-sm more">Request Meeting</a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-    <!-- LOCATION 2 END -->
-
-    <!-- LOCATION 3 START -->
-    <section id="location-3">
-
-        <div class="container">
-
-            <div class="row">
-
-                <div class="col-md-6">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <!-- MAP -->
-                        <iframe src="https://www.google.com/maps/embed?pb=<!1m18!1m12!1m3!1d50470 class="07122984118 43759999999999 75769999999999 ">                   </!1m18!1m12!1m3!1d50470>1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407136288113" width="600" height="450" frameborder="0" style="border: 0px;"></iframe>
-                    </div>
-                </div>
-
-                <div class="col-md-offset-1 col-md-5">
-                    <!-- ADDRESS -->
-                    <address class="office-info">
-                        <h3>Location</h3>
-                        <h4>Company Name</h4>
-                        <p>Address Line 1<br />
-                        Address Line 2<br />
-                        Suburb or District<br />
-                        Town or City<br />
-                        State, County or Province<br />
-                        Postal or Zip Code</p>
-                        <h4><abbr title="Phone">Tel:</abbr></h4>
-                        <p><a href="tel:0123 456 789">0123 456 789</a></p>
-                    </address>
-                    <h4>Opening Hours</h4>
-                    <p>Mon-Fri 09:00 - 17:00</p>
-                    <div>
-                        <a href="#meeting" class="btn btn-danger btn-sm more">Request Meeting</a>
-                    </div>
-                </div>
-
-            </div>
-
-        </div>
-
-    </section>
-    <!-- LOCATION 3 END -->
+    <!-- CONTACT START -->
+    <?php include ("admin/snippets/contact.php"); ?>
+    <!-- CONTACT END -->
 
     <!-- CLINCH -->
     <section id="clinch">
     
         <div class="container text-center">
-            <p class="lead"><strong>So what are you waiting for?</strong> Call Today and talk to us about how we can make a real difference to your business. Arrange your <span class="text-danger">FREE, No-Obligation Meeting</span> using the form below or call us direct on <span class="text-danger">0123 456 789</span>.</p>
+            <p class="lead"><strong>So what are you waiting for?</strong> Call Today and talk to us about how we can make a real difference to your business. Arrange your <span class="text-danger">FREE, No-Obligation Meeting</span> using the form below or call us direct on <span class="text-danger"><?php echo $phone; ?></span>.</p>
         </div>
 
     </section>
@@ -257,7 +103,7 @@ include 'admin/var.php';
                         <ul>
                             <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
                             <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong>£100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
+                            <li><strong><?php echo $currency; ?>100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
                         </ul>
                     </div>
 
@@ -318,8 +164,8 @@ include 'admin/var.php';
                         <div class="row">
                             
                             <div class="col-lg-offset-2 col-lg-8">
-                                <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super Accountant  can make to your business! 
-                                <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.php">here</a></p>
+                                <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super <?php echo $business_4; ?> can make to your business! 
+                                <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a> OR you can find our contact details <a href="contact-us.php">here</a></p>
                             </div> 
                             <div class="text-center col-md-6 col-md-offset-3">
                                 <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>
