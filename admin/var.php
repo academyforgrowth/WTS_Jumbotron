@@ -88,9 +88,7 @@ $team_member6_bio = 'Voluptatem quia voluptas sit aspernatur aut odit aut fugit 
  ** 3. =Services
  ******************************/
 
-$compliance = ['Personal Tax Returns', 'Income Statements', 'Company Tax Returns', 'Financial Statements', 'Tax Planning'];
-
-$time_saving = ['Expenses Management', 'Budgeting', 'Client Invoicing', 'Accounts Receivable Service', 'Business Management Consulting'];
+$expertise = 'We also have specific expertise working with [list any specific industries that you have specialist expertise in]';
 
 /******************************
  ** 4. =Testimonials

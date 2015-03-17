@@ -26,6 +26,8 @@ $favourite = 'favourite';
 
 $recognise = 'recognise';
 
+$recognising = 'recognising';
+
 $maximise = 'maximise';
 
 
@@ -36,6 +38,8 @@ $maximise = 'maximise';
 // $favourite = 'favorite';
 
 // $recognise = 'recognize';
+
+// $recognising = 'recognizing'; 
 
 // $maximise = 'maximize';
 

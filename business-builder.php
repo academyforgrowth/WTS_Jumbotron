@@ -1,6 +1,7 @@
 <?php  
 
 include 'admin/var.php';
+include 'admin/language.php';
 
 ?>
 
@@ -117,7 +118,7 @@ include 'admin/var.php';
                         <ul>
                             <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
                             <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong><?php echo $currency; ?>100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
+                            <li><strong><?php echo $currency; ?>100 to your <?php echo $favourite; ?> charity</strong> if you do not consider our meeting to be of immense value to you</li>
                         </ul>
                     </div>
 

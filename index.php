@@ -1,6 +1,7 @@
 <?php  
 
 include 'admin/var.php';
+include 'admin/language.php';
 
 ?>
 
@@ -102,7 +103,7 @@ include 'admin/var.php';
                         <ul>
                             <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
                             <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong><?php echo $currency; ?>100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
+                            <li><strong><?php echo $currency; ?>100 to your <?php echo $favourite; ?> charity</strong> if you do not consider our meeting to be of immense value to you</li>
                         </ul>
                     </div>
                     
@@ -197,7 +198,7 @@ include 'admin/var.php';
                 <!--  description-->
                 <div class="text-left vertalign col-xs-12 col-md-6">
                     <hr />
-                    <p class="lead">If you are looking to grow your business, we have THE solution. We recognise that most of our business clients want more sales, more customers and more profit (especially in the current economic climate). Of course this not only helps you, but in turn the more money you make, the more opportunities we'll have to help you.</p>
+                    <p class="lead">If you are looking to grow your business, we have THE solution. We <?php echo $recognise; ?> that most of our business clients want more sales, more customers and more profit (especially in the current economic climate). Of course this not only helps you, but in turn the more money you make, the more opportunities we'll have to help you.</p>
                     <p class="lead">We have invested a significant sum in sponsoring the <strong>Business Growth System (BGS)</strong>, one of the world's most successful marketing and business growth systems.</p>
                     <p class="lead">Sponsoring the BGS has given us the opportunity to make it available to ALL our business clients completely <strong>FREE OF CHARGE</strong>. </p>
                     <p class="lead">Why not join the thousands of directors and owners of small businesses worldwide who have been given with the <strong>tools and strategies they need to successfully grow their business?</strong></p>

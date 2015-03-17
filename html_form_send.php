@@ -81,6 +81,7 @@ $headers = 'From: '.$email_from."\r\n".
 <?php  
 
 include 'admin/var.php';
+include 'admin/language.php';
 
 ?>
 
