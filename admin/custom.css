@@ -4,3 +4,12 @@
 .jumbotron{
 	background:#47a3da;
 }
+
+/*CONTAINER FOR NAV & LOGO (ADD margin-bottom to fit logo)*/
+
+.container-fluid {
+	padding-right:15px;
+	padding-left:15px;
+	margin-right:auto;
+	margin-left:auto;
+}
