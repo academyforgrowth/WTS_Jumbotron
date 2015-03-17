@@ -34,7 +34,7 @@ include 'admin/var.php';
                                 <div class="vendor">
                                     <div class="container-video">
                                         <!-- VIDEO EMBED CODE START -->
-                                        <div id="evp-7Q3R2TINP0" data-role="evp-video" data-evp-id="QUZHLVBvdW5kcy1Oby1Cb29rLU1vYmlsZS01MTJ4Mjg4Lm1wNA=="></div>
+                                        <?php include ("admin/video.php"); ?>
                                         <!-- VIDEO EMBED CODE END -->
                                     </div>
                                 </div>
