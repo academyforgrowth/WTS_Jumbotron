@@ -84,6 +84,7 @@
 
 .page-header h2 {
 	line-height: 1.3em ;
+	text-transform: uppercase;
 }
 
 /*.page-header {
