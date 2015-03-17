@@ -107,7 +107,7 @@
                 <div class="col-sm-offset-1 col-sm-7">
                     <h3><?php echo $team_member6; ?></h3>
                     <p><?php echo $team_member6_title; ?></p>
-                    <p><?php echo $team_member6_bio; ?></p6
+                    <p><?php echo $team_member6_bio; ?></p>
                 </div>
 
             </div>

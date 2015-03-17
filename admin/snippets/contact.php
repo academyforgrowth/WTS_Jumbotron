@@ -16,7 +16,7 @@
                         <h2>Our Offices</h2>
                         <ul class="inline-list" id="location-list">
                             <!-- REMOVE LIST ITEMS BELOW AS APPROPRIATE TO REFLECT NUMBER OF OFFICES -->
-                            <li><a href="#location-1">Location</a></li>
+                            <li><a href="#location-1"><?php echo $location; ?></a></li>
                             <li><a href="#location-2">Location</a></li>
                             <li><a href="#location-3">Location</a></li>
                         </ul>
@@ -47,8 +47,8 @@
                 <div class="col-md-offset-1 col-md-5">
                     <!-- ADDRESS -->
                     <address class="office-info">
-                        <h3>Location</h3>
-                        <h4>Company Name</h4>
+                        <h3><?php echo $location; ?></h3>
+                        <h4><?php echo $company_name; ?></h4>
                         <p>Address Line 1<br />
                         Address Line 2<br />
                         Suburb or District<br />
@@ -56,10 +56,10 @@
                         State, County or Province<br />
                         Zip or Post Code</p>
                         <h4><abbr title="Phone">Tel:</abbr></h4>
-                        <p><a href="tel:023 456 789">0123 456 789</a></p>
+                        <p><a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a></p>
                     </address>
                     <h4>Opening Hours</h4>
-                    <p>Mon-Fri 09:00 - 17:00</p>
+                    <p>Mon-Fri 08:00am - 05:30pm</p>
                     <div>
                         <a href="#meeting" class="btn btn-danger btn-sm more">Request Meeting</a>
                     </div>
@@ -90,7 +90,7 @@
                     <!-- ADDRESS -->
                     <address class="office-info">
                         <h3>Location</h3>
-                        <h4>Company Name</h4>
+                        <h4><?php echo $company_name; ?></h4>
                         <p>Address Line 1<br />
                         Address Line 2<br />
                         Suburb or District<br />
@@ -98,10 +98,10 @@
                         State, County or Province<br />
                         Postal or Zip Code</p>
                         <h4><abbr title="Phone">Tel:</abbr></h4>
-                        <p><a href="tel:0123 456 789">0123 456 789</a></p>
+                        <p><a href="tel:<?php echo $phone_2; ?>"><?php echo $phone_2; ?></a></p>
                     </address>
                     <h4>Opening Hours</h4>
-                    <p>Mon-Fri 09:00 - 17:00</p>  
+                    <p>Mon-Fri 08:00am - 05:30pm</p>  
                     <div>
                         <a href="#meeting" class="btn btn-danger btn-sm more">Request Meeting</a>
                     </div>
@@ -124,7 +124,7 @@
                 <div class="col-md-6">
                     <div class="embed-responsive embed-responsive-4by3">
                         <!-- MAP -->
-                        <iframe src="https://www.google.com/maps/embed?pb=<!1m18!1m12!1m3!1d50470 class="07122984118 43759999999999 75769999999999 ">                   </!1m18!1m12!1m3!1d50470>1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407136288113" width="600" height="450" frameborder="0" style="border: 0px;"></iframe>
+                        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d50470.07122984118!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407136288113" width="600" height="450" frameborder="0" style="border: 0px;"></iframe>
                     </div>
                 </div>
 
@@ -132,7 +132,7 @@
                     <!-- ADDRESS -->
                     <address class="office-info">
                         <h3>Location</h3>
-                        <h4>Company Name</h4>
+                        <h4><?php echo $company_name; ?></h4>
                         <p>Address Line 1<br />
                         Address Line 2<br />
                         Suburb or District<br />
@@ -140,10 +140,10 @@
                         State, County or Province<br />
                         Postal or Zip Code</p>
                         <h4><abbr title="Phone">Tel:</abbr></h4>
-                        <p><a href="tel:0123 456 789">0123 456 789</a></p>
+                        <p><a href="tel:<?php echo $phone_3; ?>"><?php echo $phone_3; ?></a></p>
                     </address>
                     <h4>Opening Hours</h4>
-                    <p>Mon-Fri 09:00 - 17:00</p>
+                    <p>Mon-Fri 08:00am - 05:30pm</p>
                     <div>
                         <a href="#meeting" class="btn btn-danger btn-sm more">Request Meeting</a>
                     </div>
