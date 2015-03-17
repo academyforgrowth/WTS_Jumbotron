@@ -1,104 +1,20 @@
+<?php  
+
+include 'admin/var.php';
+
+?>
+
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
-    <meta charset="utf-8">
-    <title>Index | Company Name - Accountants in Location</title>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Company Name are accountants in Location. We offer tax-planning services, compliance, auditing, to small and medium business. We help firms grow and achieve their financial goals. Call us on 0123 456 789">
-    <!-- INCLUDES -->
-    <!-- Latest compiled and minified CSS BS 3.0. latest minifined--> 
-    <link href="assets/css/bootstrap.min.css" rel="stylesheet">
-    <link href="assets/css/theme.css" rel="stylesheet">
-    <link href="assets/css/theme-custom.css" rel="stylesheet">
-    <!-- FONTS -->
-    <link href="http://fonts.googleapis.com/css?family=Comfortaa:400,300,700&amp;subset=latin,latin-ext" rel="stylesheet" type="text/css">
-    <link href="http://fonts.googleapis.com/css?family=Open+Sans:400,300,700,800" rel="stylesheet" type="text/css">
-    <!-- FontAwesome icons -->
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.min.css" rel="stylesheet">
-    <!--[if lt IE 7]>
-    <link href="http://netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome-ie7.min.css" rel="stylesheet">
-    <![endif]-->
-    <!-- Le HTML5 shim, for IE6-8 support of HTML5 elements -->
-    <!--[if lt IE 9]>
-    <script src="http://html5shim.googlecode.com/svn/trunk/html5.js" type="text/javascript"></script>
-    <![endif]-->
-    <!-- FAV & TOUCH ICONS -->
-    <link rel="shortcut icon" href="assets/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="assets/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="assets/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="assets/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="assets/ico/apple-touch-icon-57-precomposed.png">
+    <?php include ("php/head.php"); ?>
+    <title>Legals | <?php echo $company_name; ?> - <?php echo $business; ?> in <?php echo $location; ?></title>
 </head>
 <body>
-
-    <!-- NAV -->
-    <nav id="topnav" class="navbar navbar-default navbar-fixed-top " role="navigation">
-        <div class="container-fluid">
-            <!-- Brand and toggle get grouped for better mobile display -->
-            <div class="navbar-header">
-                <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-ex1-collapse">
-                    <span class="sr-only">Toggle navigation</span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                    <span class="icon-bar"></span>
-                </button>
-                <a class="navbar-brand" href="index.html"><img src="images/logo.png"></a>
-            </div>
-            <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
-                <ul class="nav navbar-nav">
-                    <!-- ABOUT -->              
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">About Us<span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="about-us.html">About Us</a></li>
-                            <li><a href="about-us.html#ethos">Our Company</a></li>
-                            <li><a href="about-us.html#promises">Our Promises</a></li>
-                            <li><a href="super-accountant.html">The Super Accountant</a></li>
-                        </ul>
-                    </li>
-                    <!--SERVICES -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Services <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="how-we-help.html">Services</a></li>        
-                            <li><a href="how-we-help.html#compliance">Compliance</a></li>
-                            <li><a href="how-we-help.html#time-saving">Time-Saving</a></li>
-                            <li><a href="how-we-help.html#value-added">Giving You More</a></li>
-                        </ul>   
-                    </li>
-                    <!-- WHO WE HELP -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Expertise <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">      
-                            <li><a href="who-we-help.html">Here For You</a></li>
-                            <li><a href="who-we-help.html#who-we-help">Who We Help</a></li>
-                            <li><a href="team.html">The Team</a></li>
-                            <li class="divider"></li>
-                            <li><a href="testimonials.html">Testimonials</a></li>
-                        </ul>   
-                    </li>
-                    <!-- CONTACT US -->
-                    <li><a href="contact-us.html">Contact</a></li>
-                    <!-- GROWTH -->
-                    <li class="dropdown">
-                        <a href="#" class="dropdown-toggle" data-toggle="dropdown">Grow Your Business <span class="caret"></span></a>
-                        <ul class="dropdown-menu" role="menu">
-                            <li><a href="business-growth.html">Business Growth System</a></li>
-                            <li><a href="business-builder.html">Free Business Builder Newsletter</a></li>
-                        </ul>
-                    </li>
-                </ul>
-                <div class="nav navbar-nav navbar-right">
-                    <a href="tel:0123 456 789"><span class="phone"><i class="icon-phone"></i>0123 456 789</span></a> 
-                    <a href="#meeting" class="btn btn-danger navbar-btn">FREE Meeting</a> 
-                </div>
-            </div>
-            <!-- /.navbar-collapse --> 
-        </div>  
-    </nav>
-    <!-- END NAV -->
+        
+    <!-- NAV START -->
+    <?php include ("php/nav.php"); ?>
+    <!-- NAV END -->
     
     <!-- LEAD SECTION ================================ -->
     <section id ="lead-legal" class="no-jumbo">
@@ -163,7 +79,7 @@
                         <p>All these lists can be opted-out of at any time.</p> 
                         <p>Company Name NEVER share or sell its e-mail lists to third parties. </p>
                         <p>Each email that you receive from us has simple instructions on how to unsubscribe from our e-mail list.</p>
-                        <p>If you have any questions regarding our e-mail policy, please get in touch with us via our <a href="contact-us.html">Contact Us</a> page, or in writing to this address.</p>
+                        <p>If you have any questions regarding our e-mail policy, please get in touch with us via our <a href="contact-us.php">Contact Us</a> page, or in writing to this address.</p>
                     </div>
                 </div>
 
@@ -310,8 +226,8 @@
                     <div class="row">
                         
                         <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.html">watch this video</a> and see the difference a Super Accountant can make to your business!</p>
-                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.html">here</a></p>
+                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super Accountant can make to your business!</p>
+                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.php">here</a></p>
                         </div> 
                         <div class="text-center col-md-6 col-md-offset-3">
                             <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>
@@ -370,139 +286,13 @@
 
     <!-- END ASSOCIATIONS -->
 
-    <!-- FOOTER -->
-    <footer id="footer">
-        <div class="container">
-            <div class="row">
-                
-                <!-- Left -->
-                <!-- MAP START -->
-                <div class="col-sm-5 col-md-4 map">
-                    <div class="embed-responsive embed-responsive-4by3">
-                        <iframe frameborder="0" style="border: 0px none;" src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d100940.14245968236!2d-122.43759999999999!3d37.75769999999999!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x80859a6d00690021%3A0x4a501367f076adff!2sSan+Francisco%2C+CA%2C+USA!5e0!3m2!1sen!2suk!4v1407503223429" class="embed-responsive-item"></iframe>
-                    </div>
-                </div>
-                <!-- MAP END -->
-        
-                <!-- Right -->
-                <!-- Address -->
-                <div class="col-sm-7 col-md-offset-1 col-md-6">
-                    <div class="row">
-                        <div class="col-sm-4">
-                            <h4>Get In Touch</h4>
-                            <!--Address-->
-                            <address id="contact">
-                                <h5>Company Name</h5>
-                                Address Line 1<br />
-                                Address Line 2<br />
-                                Suburb or District<br />
-                                Town or City<br />
-                                State, County or Province<br />
-                                Zip or Post Code
-                                <!--Phone Number -->
-                                <p><abbr title="Phone">Tel:</abbr> 0123 456 789</p>
-                            </address>
-                        </div>
-        
-                        <nav id="sitemap" role="navigation" class="col-sm-4">
-                            <h4>Links</h4>
-                            <ul>
-                                <li><a href="about-us.html">About Us</a></li>
-                                <li><a href="team.html">The Team</a></li>
-                                <li><a href="super-accountant.html">Super Accountant</a></li>
-                                <li><a href="how-we-help.html">Services</a></li>
-                                <li><a href="testimonials.html">Testimonials</a></li>
-                                <li><a href="business-builder.html">Business Builder</a></li>
-                            </ul>
-                            <h4>Legal</h4>
-                            <ul>
-                                <li><a href="legals.html#privacy">Privacy Policy</a></li>
-                                <li><a href="legals.html#anti-spam">Anti-Spam Policy</a></li>
-                                <li><a href="legals.html#disclaimer">Disclaimer</a></li>
-                            </ul>
-                        </nav>
-        
-                        <nav role="navigation" class="col-sm-4">
-                            <h4>Expertise</h4>
-                            <ul>
-                                <li><a href="who-we-help.html">Here For You</a></li>
-                                <li><a href="who-we-help.html#who-we-help">Our Clients</a></li>
-                            </ul>
-                            <h4>How We Can Help</h4>
-                            <ul>
-                                <li><a href="how-we-help.html#time-saving">Saving You Time</a></li>
-                                <li><a href="how-we-help.html#compliance">Keeping Your Business Compliant</a></li>
-                                <li><a href="how-we-help.html#value-added">Giving You More</a></li>
-                                <li><a href="#meeting">Meet With Us</a></li>
-                            </ul>
-                        </nav>
-                    </div>
-                    <!--row-->
-                </div>
-
-            </div>
-        
-        </div>
-        
-        <div class="container-fluid">
-            <p class="pull-right dim">Company Name<br />
-            Registered in Country: #00000000<br />
-            &copy; Company Name &copy;Academy for Growth, 2009 to present.<br />
-            Site by Academy For Growth Ltd</p>
-        </div>
-    </footer>
+    <!-- FOOTER START -->
+    <?php include ("php/footer.php"); ?>
     <!-- END FOOTER -->
 
-    <!-- Javascript -->
-    <script src="assets/js/jquery.js" type="text/javascript"></script>
-    <!-- Latest compiled and minified JavaScript -->
-    <script src="assets/js/bootstrap.min.js" type="text/javascript"></script>
-    <!-- PAGE CUSTOM SCROLLER -->
-    <script type="text/javascript" src="assets/js/jquery.nicescroll.min.js"></script>
-    <script src="assets/js/jquery.parallax-1.1.3.js" type="text/javascript" ></script>
-    <script src="assets/js/jquery.localscroll-1.2.7-min.js" type="text/javascript" ></script>
-    <script src="assets/js/jquery.scrollTo-1.4.6-min.js" type="text/javascript" ></script>
-    <!-- responsive video-->
-    <script type="text/javascript" src="http://afg.evsuite.com/player/QUZHLUV1cm9zLU5vLUJvb2stTW9iaWxlLTUxMngyODgubXA0/?responsive=1&autoResponsive=1&container=evp-M6I7N835X6"></script>
-    <!-- / responsive video-->
-
-    <!--loCAL sCROLL -->
-    <script>
-        jQuery(document).ready(function(){
-        jQuery('#topnav').localScroll({offset: {top:0}});
-        jQuery('#startbtn').localScroll(5000);
-        //.parallax(xPosition, speedFactor, outerHeight) options:
-        //xPosition - Horizontal position of the element
-        //inertia - speed to move relative to vertical scroll. Example: 0.1 is one tenth the speed of scrolling, 2 is twice the speed of scrolling
-        //outerHeight (true/false) - Whether or not jQuery should use it's outerHeight option to determine when a section is in the viewport
-        //jQuery('#top-section').parallax("50%", 0.1);
-        //jQuery('#Section-1').parallax("50%", 0.3);
-        //jQuery('#Section-2').parallax("50%", 0.1);
-        //jQuery('#foot-sec').parallax("50%", 0.1);
-        })
-    </script>
-
-    <script>
-        //hide menu after click on mobile
-        jQuery('.navbar .nav > li > a').click(function(){
-        jQuery('.navbar-collapse.navbar-ex1-collapse.in').removeClass('in').addClass('collapse').css('height', '0');
-        });
-    </script>
-
-    <!-- NICE Scroll plugin -->
-    <script>
-        //scroll bar custom
-        jQuery(document).ready(
-        function() {  
-        jQuery("html").niceScroll({cursorcolor:"#333"});
-        }
-        );
-    </script>
-
-    <!-- saved from url http://www.bootstraptor.com ==========================
-    This template build on Bootstrap 3 Developer  Kit v.2.0. by @Bootstraptor
-    Read usage license on http://www.bootstraptor.com
-    ##########################################################################-->
+    <!-- SCRIPTS START -->
+    <?php include ("php/scripts.php"); ?>
+    <!-- SCRIPTS END -->
 
 </body>
 </html>
