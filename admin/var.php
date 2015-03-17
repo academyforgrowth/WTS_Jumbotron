@@ -29,6 +29,7 @@ $business_4 = 'Accountant'; // start with capital letter
 
 $business_5 = 'Accounting'; // start with capital letter
 
+$policy_date = '00/00/0000';
 
 
 $nav_menu = array (
