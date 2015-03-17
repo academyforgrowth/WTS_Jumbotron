@@ -28,7 +28,7 @@ include 'admin/var.php';
                     <div class="vertalign col-sm-7 col-md-offset-1 col-md-5">
                         <div style="margin-top: 0.67em;" class="hidden-xs panel panel-default" id="video-container">
                             <div class="panel-heading text-center ">
-                                <h4 class="text-success">JUST FOUR MINUTES OF YOUR TIME &amp; YOU WILL KNOW WHY THEY CALL US <span style="font-weight: bold;">"THE SUPER ACCOUNTANT"</span></h4>
+                                <h4 class="text-success">JUST FOUR MINUTES OF YOUR TIME &amp; YOU WILL KNOW WHY THEY CALL US <span style="font-weight: bold;">"THE SUPER <?php echo $business_4; ?>"</span></h4>
                             </div>
                             <div class="panel-body">
                                 <div class="vendor">
@@ -46,7 +46,7 @@ include 'admin/var.php';
                         <div class="container">
                             <div class="row">
                                 <div class=" col-xs-12 col-sm-9 col-md-9 col-lg-9">
-                                    <p style="padding-top: 7px;" class="lead text-danger text-center"><strong>DON'T TALK TO ANOTHER ACCOUNTANT UNTIL YOU'VE SEEN WHAT A SUPER ACCOUNTANT CAN DO     FOR YOU!</strong></p>
+                                    <p style="padding-top: 7px;" class="lead text-danger text-center"><strong>DON'T TALK TO ANOTHER <?php echo $business_4; ?> UNTIL YOU'VE SEEN WHAT A SUPER <?php echo $business_4; ?> CAN DO FOR YOU!</strong></p>
                                 </div>
                                 <div class=" text-center col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <a href="#" class="btn btn-danger btn-block btn-md">WATCH OUR VIDEO</a>
@@ -58,12 +58,12 @@ include 'admin/var.php';
 
                     <!-- HEADLINE -->
                     <div class="vertalign text-right col-xs-12 col-sm-5 col-md-offset-1 col-md-4">
-                        <h2 class="headline">DISCOVER THE ACCOUNTANT WHO CAN GROW YOUR BUSINESS AND SAVE YOU MONEY</h2>
+                        <h2 class="headline">DISCOVER THE <?php echo $business_4; ?> WHO CAN GROW YOUR BUSINESS AND SAVE YOU MONEY</h2>
                         <hr />
                         <p class="lead">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
                         <p>Call Us Today To Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
                         <hr />
-                        <h2 class="text-right"><span class="standout">Call 0123 456 789</span></h2>
+                        <h2 class="text-right"><span class="standout">Call <?php echo $phone; ?></span></h2>
                     </div>
                 </div>
                 <!-- HEADER ROW END -->
@@ -102,7 +102,7 @@ include 'admin/var.php';
                         <ul>
                             <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
                             <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong>£100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
+                            <li><strong><?php echo $currency; ?>100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
                         </ul>
                     </div>
                     
@@ -158,8 +158,8 @@ include 'admin/var.php';
             <div class="row">
                 <div class="col-xs-12 col-lg-12 text-center">
                     <div class="page-header">
-                        <h1>Business Accountants and Growth Consultants in Location</h1>
-                        <h2>Providing Accounting and Consultancy Services to help you <span class="text-info">Grow, Increase Profits, Save Tax, Relax...</span></h2>
+                        <h1>Business <?php echo $business; ?> and Growth Consultants in <?php echo $location; ?></h1>
+                        <h2>Providing <?php echo $business_5; ?> and Consultancy Services to help you <span class="text-info">Grow, Increase Profits, Save Tax, Relax...</span></h2>
                     </div>
                 </div>
             </div>
@@ -177,7 +177,7 @@ include 'admin/var.php';
                 
                 <div class="row">
                     <div class="vertalign text-left col-xs-12 col-md-6">
-                        <p class="lead"><strong>Company Name is the leading provider of accounting and tax-planning services in Location.</strong> We do everything that you would expect your accountant to do, <em>but we also do so much more...</em></p>
+                        <p class="lead"><strong><?php echo $company_name; ?> is the leading provider of accounting and tax-planning services in <?php echo $location; ?>.</strong> We do everything that you would expect your <?php echo $business_3; ?> to do, <em>but we also do so much more...</em></p>
                         <p class="lead">We work with you to establish <strong>your goals</strong> for <strong>your business</strong> - and help plan your financial affairs accordingly. All of the compliance services that we offer are fully managed by our expert team, taking the stress away from you.</p>
                         <p class="lead">Take advantage of our compliance, time-saving and value-added services and focus your valuable time and resources on doing what you do best: <strong>your business.</strong></p>
         
@@ -198,7 +198,7 @@ include 'admin/var.php';
             <!-- END FEATURE 1 -->
 
             <hr />
-            <h2 class="text-center">WE'RE NOT LIKE THE OTHER ACCOUNTANTS</h2>
+            <h2 class="text-center">WE'RE NOT LIKE THE OTHER <?php echo $business; ?></h2>
             
             <!-- FEATURE 2 -->
             <div id="marketing" class="row">
@@ -209,9 +209,9 @@ include 'admin/var.php';
                 <!--  description-->
                 <div class="vertalign text-left col-xs-12 col-md-6">
                     <hr />
-                    <p class="lead">The frustrations felt by business owners are often the same. Are you tired of unpredictable fees? Do you find it difficult to get a straight answer? Are    your calls not being returned (and when they are, they're returned late)? Do you feel your accountant should be doing more to hold onto as much of your hard-earned profits as possible?</p>
-                    <p class="lead">Any accountant can produce a decent set of accounts. But very few have the skills to create <em>a relationship where the client really sees their accountant as a true asset to their business</em>. Because, a truly great accountant, <strong>A SUPER ACCOUNTANT,</strong> does much more than just provide accounting services.</p>
-                    <p class="lead"><strong>A SUPER ACCOUNTANT</strong> is one that gives your business the advantage it needs and demands.</p>
+                    <p class="lead">The frustrations felt by business owners are often the same. Are you tired of unpredictable fees? Do you find it difficult to get a straight answer? Are your calls not being returned (and when they are, they're returned late)? Do you feel your <?php echo $business_3; ?> should be doing more to hold onto as much of your hard-earned profits as possible?</p>
+                    <p class="lead">Any <?php echo $business_3; ?> can produce a decent set of accounts. But very few have the skills to create <em>a relationship where the client really sees their <?php echo $business_3; ?> as a true asset to their business</em>. Because, a truly great <?php echo $business_3; ?>, <strong>A SUPER <?php echo $business_4; ?>,</strong> does much more than just provide <?php echo $business_2; ?> services.</p>
+                    <p class="lead"><strong>A SUPER <?php echo $business_4; ?></strong> is one that gives your business the advantage it needs and demands.</p>
         
                     <div class="row">
                         <div class="text-center">
@@ -261,7 +261,7 @@ include 'admin/var.php';
                     <div class="col-xs-12 col-sm-12 col-md-12 col-lg-12">
                         <div class="row"><abbr></abbr>
                             <div class="col-md-9">
-                                <p class="lead">SO GO AHEAD,<span> REQUEST YOUR FREE MEETING TODAY. CALL US ON 0123 456 789 OR CLICK THE BUTTON TO USE OUR QUICK AND EASY WEB FORM.</span></p>
+                                <p class="lead">SO GO AHEAD,<span> REQUEST YOUR FREE MEETING TODAY. CALL US ON <?php echo $phone; ?> OR CLICK THE BUTTON TO USE OUR QUICK AND EASY WEB FORM.</span></p>
                             </div>
                             <div class="text-center col-md-3">
                                 <a href="#meeting" class="btn  btn-danger btn-block btn-lg">FREE MEETING</a>

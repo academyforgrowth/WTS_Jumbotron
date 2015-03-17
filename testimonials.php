@@ -42,7 +42,7 @@ include 'admin/var.php';
                         <hr>
                         <p class="lead">Of Course, we think we do a <strong><em>great job for our clients</em></strong></p>
                         <p>... but we understand if you would rather <strong><em>hear it from them...</em></strong></p>
-					   <h2><span class="standout">Call 0123 456 789</span></h2> 
+					   <h2><span class="standout">Call <?php echo $phone; ?></span></h2> 
                     </div>
 			
                 </div>
@@ -81,7 +81,7 @@ include 'admin/var.php';
 			
                 <div class="col-12 col-lg-12 text-center">
 				    <div class="page-header">
-					   <h1>At Company Name, <span class="">we put YOU first.</span></h1> 
+					   <h1>At <?php echo $company_name; ?>, <span class="">we put YOU first.</span></h1> 
 					   <h2>We Take The Time to Ensure Each and Every One of Our Clients Gets<br><strong><span class="text-info">The Personal Attention They Deserve</span></strong></h2>
 					   <p class="lead">Over the years, we have worked hard to earn the trust of our clients and developed some great working relationships along the way. Many of our clients have been kind enough to leave some feedback recognising the work that we do for them.</p>
 					   <p class="lead">Hopefully this will go some of the way to show the attention you can expect to receive when you become our client.</p>
@@ -100,7 +100,7 @@ include 'admin/var.php';
     <!-- CLINCH -->
     <section id="clinch">
         <div class="container">
-            <p class="text-center">To see how you too can benefit from working with us, <a href="#meeting"><span class="text-danger">request your FREE Meeting today</span></a>. Enter your details in the form or phone us direct on <span class="text-danger">0123 456 789.</span></p>
+            <p class="text-center">To see how you too can benefit from working with us, <a href="#meeting"><span class="text-danger">request your FREE Meeting today</span></a>. Enter your details in the form or phone us direct on <span class="text-danger"><?php echo $phone; ?>.</span></p>
         </div>
     </section>
     <!-- END CLINCH -->
@@ -118,7 +118,7 @@ include 'admin/var.php';
                         <ul>
                             <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
                             <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong>£100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
+                            <li><strong><?php echo $currency; ?>100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
                         </ul>
                     </div>
 
@@ -179,8 +179,8 @@ include 'admin/var.php';
                     <div class="row">
 
                         <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super Accountant can make to your business! Remember, you can meet with us for free, with no-obligation to become our client. We'll even donate £100 to your favourite charity if you don't feel that the meeting was worth your while.</p>
-                            <p class="undecided text-center">So what have you got to lose? Call us direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find other ways to get in touch <a href="contact-us.php">here</a>.</p>
+                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super <?php echo $business_4; ?> can make to your business! Remember, you can meet with us for free, with no-obligation to become our client. We'll even donate <?php echo $currency; ?>100 to your favourite charity if you don't feel that the meeting was worth your while.</p>
+                            <p class="undecided text-center">So what have you got to lose? Call us direct on <a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a> OR you can find other ways to get in touch <a href="contact-us.php">here</a>.</p>
                         </div> 
                         <div class="text-center col-md-6 col-md-offset-3">
                             <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>

@@ -79,7 +79,7 @@ include 'admin/var.php';
                         <p>All these lists can be opted-out of at any time.</p> 
                         <p><?php echo $company_name; ?> NEVER share or sell its e-mail lists to third parties. </p>
                         <p>Each email that you receive from us has simple instructions on how to unsubscribe from our e-mail list.</p>
-                        <p>If you have any questions regarding our e-mail policy, please get in touch with us via our <a href="contact-us.php">Contact Us</a> page, or in writing to this address.</p>
+                        <p>If you have any questions regarding our e-mail policy, please get in touch with us via our <a href="contact-us.php">Contact Us</a> page.</p>
                     </div>
                 </div>
 
@@ -98,7 +98,7 @@ include 'admin/var.php';
             
                 <div class="col-12 col-lg-12 text-center">
                     <div class="page-header">
-                        <h3 class="section-head">Privacy Policy - Effective Date: 09/09/9999</h3>
+                        <h3 class="section-head">Privacy Policy - Effective Date: <?php echo $policy_date; ?></h3>
                         <h4>The Information We Collect and Use:</h4>
                         <p>This privacy policy sets out how we use and protect any information that you give us when you use this website.</p> 
                         <p>Company Name is committed to ensuring that your privacy is protected. Should we ask you to provide certain information by which you can be identified when using this website, then you can be assured that it will only be used in accordance with this privacy statement.</p> 
@@ -163,7 +163,7 @@ include 'admin/var.php';
                         <ul>
                             <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
                             <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong>£100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
+                            <li><strong><?php echo $currency; ?>100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
                         </ul>
                     </div>
 
@@ -226,8 +226,8 @@ include 'admin/var.php';
                     <div class="row">
                         
                         <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super Accountant can make to your business!</p>
-                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.php">here</a></p>
+                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super <?php echo $business_4; ?> can make to your business!</p>
+                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a> OR you can find our contact details <a href="contact-us.php">here</a></p>
                         </div> 
                         <div class="text-center col-md-6 col-md-offset-3">
                             <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>

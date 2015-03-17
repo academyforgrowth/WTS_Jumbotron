@@ -8,7 +8,7 @@ include 'admin/var.php';
 <html lang="en">
 <head>
     <?php include ("php/head.php"); ?>
-    <title>The Super Accountant | <?php echo $company_name; ?> - <?php echo $business; ?> in <?php echo $location; ?></title>
+    <title>The Super <?php echo $business_4; ?> | <?php echo $company_name; ?> - <?php echo $business; ?> in <?php echo $location; ?></title>
 </head>
 <body>
         
@@ -27,27 +27,27 @@ include 'admin/var.php';
                     <!--CONTACT IMAGE-->
                     <div class="vertalign col-xs-12 col-sm-3 hidden-md hidden-lg">
                         <!-- IMAGE HERE -->
-                        <img class="img-responsive img-mobile" src="images/super-accountant.png" alt="The Super Accountant Gives Your Advantage The Business It Needs AND Deserves">
+                        <img class="img-responsive img-mobile" src="images/super-accountant.png" alt="The Super <?php echo $business_4; ?> Gives Your Advantage The Business It Needs AND Deserves">
                         <!-- END IMAGE -->
                     </div>  
                     <div class="vertalign hidden-xs hidden-sm col-md-7">
                         <!-- IMAGE HERE -->
-                        <img class="img-responsive" src="images/super-accountant.png" alt="The Super Accountant Gives Your Advantage The Business It Needs AND Deserves">
+                        <img class="img-responsive" src="images/super-accountant.png" alt="The Super <?php echo $business_4; ?> Gives Your Advantage The Business It Needs AND Deserves">
                         <!-- END IMAGE -->
                     </div>  
         
                     <!-- HEADLINE -->
                     <div class="text-right vertalign col-xs-12 col-sm-9 col-md-5">
-                        <h2 class="headline">THE SUPER ACCOUNTANT</h2>
+                        <h2 class="headline">THE SUPER <?php echo $business_4; ?></h2>
                         <hr>
                         <p class="lead">
-                            You won't find another accountant like us...<em> we guarantee it!</em>
+                            You won't find another <?php echo $business_3; ?> like us...<em> we guarantee it!</em>
                         </p>
                         <p>
                             One of the World's Leading Sales &AMP; Marketing Systems... is <strong>FREE</strong> to all our clients 
                         </p>
                         <hr>
-                        <h2><span class="standout">Call 0123 456 789</span></h2>                    
+                        <h2><span class="standout">Call <?php echo $phone; ?></span></h2>                    
                     </div>		
 
                 </div>
@@ -82,10 +82,10 @@ include 'admin/var.php';
 
                 <div class="col-12 col-lg-12 text-center" style="margin-top:0px;">
 				    <div class="page-header">
-					   <h1>Company Name, Accountants and Tax Wizards in Location.</h1>
-					   <h2>Any Accountant can produce a decent set of accounts...</h2>
-					   <h2><span class="text-info">but a <strong>Super Accountant</strong> does so much more than that</span></h2>
-					   <p class="lead"> We don't just call ourselves "The Super Accountants" because we like to give ourselves accolades. Where we are different, and more importantly - <em>where we really make the difference for our customers</em>, is in how we <strong>create a relationship whereby our client truly sees us an asset to their business.</strong></p>
+					   <h1><?php echo $company_name; ?>, <?php echo $business; ?> and Tax Wizards in <?php echo $location; ?>.</h1>
+					   <h2>Any <?php echo $business_4; ?> can produce a decent set of accounts...</h2>
+					   <h2><span class="text-info">but a <strong>Super <?php echo $business_4; ?></strong> does so much more than that</span></h2>
+					   <p class="lead"> We don't just call ourselves "The Super <?php echo $business; ?>" because we like to give ourselves accolades. Where we are different, and more importantly - <em>where we really make the difference for our customers</em>, is in how we <strong>create a relationship whereby our client truly sees us an asset to their business.</strong></p>
 					   <p class="lead">It doesn't matter whether you're just starting out, have an established business or you've been round the block a few times. We know what's required to create a win-win relationship for you...</p>
 				    </div>
                 </div>
@@ -108,7 +108,7 @@ include 'admin/var.php';
 					   FIXED FEES
 				    </h3>
 				    <p>
-					   When you become our client, you can wave goodbye to those unreasonable extra fees and charges that so many accountants are guilty of...
+					   When you become our client, you can wave goodbye to those unreasonable extra fees and charges that so many <?php echo $business_3; ?>s are guilty of...
 				    </p>
 				    <p>
 					   That's because <strong>all of our fees are fixed</strong>, so you'll never get any nasty surprises. To prevent you from getting a bill at the end of each year, you can pay us in <strong>a low, manageable monthly fee</strong> , helping you with your cash flow.
@@ -123,7 +123,7 @@ include 'admin/var.php';
 					   YOUR FILING DEADLINES MET... GUARANTEED
 				    </h3>
 				    <p>
-					   Neither will you have to worry about key filing deadlines, because if in the very unlikely event we miss one, <strong>we'll pay ALL of the fines <em>AND give you £250 for the inconvenience</em></strong>
+					   Neither will you have to worry about key filing deadlines, because if in the very unlikely event we miss one, <strong>we'll pay ALL of the fines <em>AND give you <?php echo $currency; ?>250 for the inconvenience</em></strong>
 				    </p>
                 </div>
 			
@@ -146,7 +146,7 @@ include 'admin/var.php';
 
             <div class="row">
                 
-                <p class="lead text-center conclusion">Now how many accountants would go <u>that far</u> for their clients?</p>
+                <p class="lead text-center conclusion">Now how many <?php echo $business_3; ?>s would go <u>that far</u> for their clients?</p>
             </div>
         </div>
     </section>
@@ -160,7 +160,7 @@ include 'admin/var.php';
             <div class="container text-center">
                 <h2>And still, we want to <strong>go the extra mile to help our clients succeed</strong></h2>
                 <p class="lead">We have invested a <u>significant sum of our own money</u> so that you and all our clients get <strong>free and unlimited access to arguably the world's most successful sales and marketing system.</strong></p>
-                <p class="lead">This alone is worth <u>over £6000 to you</u> -<strong> every single year </strong>- <u>and you get it it for free</u> when you become our client. </p>
+                <p class="lead">This alone is worth <u>over <?php echo $currency; ?>6000 to you</u> -<strong> every single year </strong>- <u>and you get it it for free</u> when you become our client. </p>
                 <a class="btn btn-lg btn-info" href="business-growth.php"><i>Find Out More</i></a>
             </div>
         </div>
@@ -173,8 +173,8 @@ include 'admin/var.php';
     <section id="clinch">
         
         <div class="container">
-            <p class="undecided text-center">Of course, you will never know for certain whether we will get along - or indeed what we can do for your business - until you meet with us. Call Us Today on <span class="text-danger"> 0123 456 789
-            </span>or fill out our form below (it only takes one minute!), and arrange your <span class="text-danger">FREE, No-Obligation Meeting.</span></p>
+            <p class="undecided text-center">Of course, you will never know for certain whether we will get along - or indeed what we can do for your business - until you meet with us. Call Us Today on <span class="text-danger"><?php echo $phone; ?>
+            </span> or fill out our form below (it only takes one minute!), and arrange your <span class="text-danger">FREE, No-Obligation Meeting.</span></p>
         </div>
 
     </section>
@@ -195,7 +195,7 @@ include 'admin/var.php';
                         <ul>
                             <li><strong>3 proven and easy-to-apply</strong> strategies which could add hundreds (even thousands) of value to your business</li>
                             <li><strong>Powerful solutions</strong> to your most pressing financial challenges (cash flow, cost management, profitability, etc).</li>
-                            <li><strong>£100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
+                            <li><strong><?php echo $currency; ?>100 to your favourite charity</strong> if you do not consider our meeting to be of immense value to you</li>
                         </ul>
                     </div>
 
@@ -256,8 +256,8 @@ include 'admin/var.php';
                     <div class="row">
 
                         <div class="col-lg-offset-2 col-lg-8">
-                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super Accountant can make to your business!</p>
-                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:0123 456 789">0123 456 789</a> OR you can find our contact details <a href="contact-us.php">here</a></p>
+                            <p class="undecided text-center">Still Not Convinced? Why not take a moment to <a href="index.php">watch this video</a> and see the difference a Super <?php echo $business_4; ?> can make to your business!</p>
+                            <p class="undecided text-center">Remember, you can call us with any questions direct on <a href="tel:<?php echo $phone; ?>"><?php echo $phone; ?></a> OR you can find our contact details <a href="contact-us.php">here</a></p>
                         </div> 
                         <div class="text-center col-md-6 col-md-offset-3">
                             <a class="btn  btn-danger btn-block btn-lg" href="#meeting" title="">FREE MEETING</a>
