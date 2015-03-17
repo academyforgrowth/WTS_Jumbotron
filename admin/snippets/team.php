@@ -27,12 +27,12 @@
             <div class="row team-row">
 
                 <div class="col-sm-offset-1 col-sm-3">
-                    <img alt="" class="img-circle img-responsive team-img" src="images/avafour.jpg" />
+                    <img alt="" class="img-circle img-responsive team-img" src="admin/img/team/1.jpg" />
                 </div>
                 <div class="col-sm-offset-1 col-sm-7">
-                    <h3>John Smith</h3>
-                    <p>Job Title</p>
-                    <p>Bio</p>
+                    <h3><?php echo $team_member1; ?></h3>
+                    <p><?php echo $team_member1_title; ?></p>
+                    <p><?php echo $team_member1_bio; ?></p>
                 </div>
             
             </div>
@@ -42,12 +42,12 @@
             <div class="row team-row">
             
                 <div class="col-sm-offset-1 col-sm-3">
-                    <img alt="" class="img-circle img-responsive team-img" src="images/avafour.jpg" />
+                    <img alt="" class="img-circle img-responsive team-img" src="admin/img/team/2.jpg" />
                 </div>
                 <div class="col-sm-offset-1 col-sm-7">
-                    <h3>John Smith</h3>
-                    <p>Job Title</p>
-                    <p>Bio</p>
+                    <h3><?php echo $team_member2; ?></h3>
+                    <p><?php echo $team_member2_title; ?></p>
+                    <p><?php echo $team_member2_bio; ?></p>
                 </div>
             
             </div>
@@ -57,12 +57,12 @@
             <div class="row team-row">
 
                 <div class=" col-sm-offset-1 col-sm-3">
-                    <img alt="" class="img-circle img-responsive team-img" src="images/avafour.jpg" />
+                    <img alt="" class="img-circle img-responsive team-img" src="admin/img/team/3.jpg" />
                 </div>
                 <div class="col-sm-offset-1 col-sm-7">
-                    <h3>John Smith</h3>
-                    <p>Job Title</p>
-                    <p>Bio</p>
+                    <h3><?php echo $team_member3; ?></h3>
+                    <p><?php echo $team_member3_title; ?></p>
+                    <p><?php echo $team_member3_bio; ?></p>
                 </div>
             
             </div>
@@ -72,12 +72,12 @@
             <div class="row team-row">
 
                 <div class="col-sm-offset-1 col-sm-3">
-                    <img alt="" class="img-circle img-responsive team-img" src="images/avafour.jpg" />
+                    <img alt="" class="img-circle img-responsive team-img" src="admin/img/team/4.jpg" />
                 </div>
                 <div class="col-sm-offset-1 col-sm-7">
-                    <h3>John Smith</h3>
-                    <p>Job Title</p>
-                    <p>Bio</p>
+                    <h3><?php echo $team_member4; ?></h3>
+                    <p><?php echo $team_member4_title; ?></p>
+                    <p><?php echo $team_member4_bio; ?></p>
                 </div>
             
             </div>
@@ -87,12 +87,12 @@
             <div class="row team-row">
 
                 <div class=" col-sm-offset-1 col-sm-3">
-                    <img alt="" class="img-circle img-responsive team-img" src="images/avafour.jpg" />
+                    <img alt="" class="img-circle img-responsive team-img" src="admin/img/team/5.jpg" />
                 </div>
                 <div class="col-sm-offset-1 col-sm-7">
-                    <h3>John Smith</h3>
-                    <p>Job Title</p>
-                    <p>Bio</p>
+                    <h3><?php echo $team_member5; ?></h3>
+                    <p><?php echo $team_member5_title; ?></p>
+                    <p><?php echo $team_member5_bio; ?></p>
                 </div>
             
             </div>
@@ -102,12 +102,12 @@
             <div class="row team-row">
 
                 <div class="col-sm-offset-1 col-sm-3">
-                    <img alt="" class="img-circle img-responsive team-img" src="images/avafour.jpg" />
+                    <img alt="" class="img-circle img-responsive team-img" src="admin/img/team/6.jpg" />
                 </div>
                 <div class="col-sm-offset-1 col-sm-7">
-                    <h3>John Smith</h3>
-                    <p>Job Title</p>
-                    <p>Bio</p>
+                    <h3><?php echo $team_member6; ?></h3>
+                    <p><?php echo $team_member6_title; ?></p>
+                    <p><?php echo $team_member6_bio; ?></p6
                 </div>
 
             </div>

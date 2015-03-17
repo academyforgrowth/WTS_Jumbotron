@@ -11,8 +11,8 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <blockquote>
-                                    <p>Headline</p>
-                                    <small>Client Name</small>
+                                    <p><?php echo $headline1; ?></p>
+                                    <small><?php echo $testimonial_client1; ?></small>
                                 </blockquote>
                             </div>
                         </div>
@@ -22,8 +22,8 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <blockquote>
-                                    <p>Headline</p>
-                                    <small>Client Name</small>
+                                    <p><?php echo $headline2; ?></p>
+                                    <small><?php echo $testimonial_client2; ?></small>
                                 </blockquote>
                             </div>
                         </div>
@@ -36,8 +36,8 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <blockquote>
-                                    <p>Headline</p>
-                                    <small>Client Name</small>
+                                    <p><?php echo $headline3; ?></p>
+                                    <small><?php echo $testimonial_client3; ?></small>
                                 </blockquote>
                             </div>
                         </div>
@@ -47,8 +47,8 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <blockquote>
-                                    <p>Headline</p>
-                                    <small>Client Name</small>
+                                    <p><?php echo $headline4; ?></p>
+                                    <small><?php echo $testimonial_client4; ?></small>
                                 </blockquote>
                             </div>
                         </div>
