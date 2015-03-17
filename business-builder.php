@@ -91,47 +91,10 @@ include 'admin/var.php';
             </div>
         
             <div class="row">
+                <!-- BUSINESS BUILDER FORM START -->
+                <?php include ("php/business_builder_form.php"); ?>
+                <!-- BUSINESS BUILDER FORM END -->
 
-                <div class="col-sm-offset-3 col-sm-6">
-                    <form>
-                        <label class="control-label" for="FirstName"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="Your First Name" id="FirstName" name="FirstName" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="LastName"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="Your Last Name" id="LastName" name="LastName" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="EmailAddress"></label>
-                        <div class="col-xs-12">
-                            <input type="email" placeholder="Your Email Address" id="EmailAddress" name="EmailAddress" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="CAT_Custom_1038426"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="Address" id="CAT_Custom_1038426" name="CAT_Custom_1038426" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="CAT_Custom_1038427"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="State Or County" id="CAT_Custom_1038427" name="CAT_Custom_1038427" class="form-control" />
-                        </div>
-                        <br />
-                        <label class="control-label" for="CAT_Custom_1038428"></label>
-                        <div class="col-xs-12">
-                            <input type="text" placeholder="Zip Or Postcode" id="CAT_Custom_1038428" name="CAT_Custom_1038428" class="form-control" />
-                        </div>
-                        <br />
-                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-2 col-md-8 text-center">
-                        </div>
-                        <br />
-                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
-                            <input type="submit" style="margin-top: 6px;" class="form-control" />
-                        </div>
-                    </form>
-                </div>
                 <!-- col -->
 
             </div>
@@ -161,38 +124,7 @@ include 'admin/var.php';
                     <div class="col-xs-12 col-md-6">
                         <!--FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL)-->                
                         <form>
-                            <div style="margin-top: 40px;" id="meet-form" class="form-horizontal">
-                                <label class="control-label" for="FirstName"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your First Name" id="FirstName" name="FirstName" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="LastName"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your Last Name" id="LastName" name="LastName" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="Company"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your Company Name (optional)" id="Company" name="Company" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="WorkPhone"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your Telephone Number" id="WorkPhone" name="WorkPhone" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="EmailAddress"></label>
-                                <div class="col-xs-12">
-                                    <input type="email" placeholder="Your Email Address" id="EmailAddress" name="EmailAddress" class="form-control" />
-                                </div>
-                                <br />
-                                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
-                                </div>
-                                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-4 col-md-4 text-center">
-                                    <button class="btn btn-lg btn-danger" style="margin-top: 6px;" type="submit">Submit</button>
-                                </div>
-                            </div>
+                            <?php include ("php/enquiry_form.php"); ?>
                         </form>
                         <!-- END FORM -->
                     </div>

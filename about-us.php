@@ -214,40 +214,7 @@ include 'admin/var.php';
                     <div class="col-xs-12 col-md-6">
                         
                         <!--FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL)-->                
-                        <form>
-                            <div style="margin-top: 40px;" id="meet-form" class="form-horizontal">
-                                <label class="control-label" for="FirstName"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your First Name" id="FirstName" name="FirstName" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="LastName"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your Last Name" id="LastName" name="LastName" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="Company"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your Company Name (optional)" id="Company" name="Company" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="WorkPhone"></label>
-                                <div class="col-xs-12">
-                                    <input type="text" placeholder="Your Telephone Number" id="WorkPhone" name="WorkPhone" class="form-control" />
-                                </div>
-                                <br />
-                                <label class="control-label" for="EmailAddress"></label>
-                                <div class="col-xs-12">
-                                    <input type="email" placeholder="Your Email Address" id="EmailAddress" name="EmailAddress" class="form-control" />
-                                </div>
-                                <br />
-                                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
-                                </div>
-                                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-4 col-md-4 text-center">
-                                    <button class="btn btn-lg btn-danger" style="margin-top: 6px;" type="submit">Submit</button>
-                                </div>
-                            </div>
-                        </form>
+                        <?php include ("php/enquiry_form.php"); ?>
                         <!-- END FORM -->
         
                     </div>
