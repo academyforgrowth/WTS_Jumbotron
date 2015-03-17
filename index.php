@@ -261,7 +261,7 @@ include 'admin/var.php';
             <!-- END FEATURE 1 -->
 
             <hr />
-            <h2 class="text-center">WE'RE NOT LIKE THE OTHER <?php echo $business; ?></h2>
+            <h2 class="text-center uppercase">WE'RE NOT LIKE THE OTHER <?php echo $business; ?></h2>
             
             <!-- FEATURE 2 -->
             <div id="marketing" class="row">

@@ -87,6 +87,10 @@
 	text-transform: uppercase;
 }
 
+.uppercase {
+	text-transform: uppercase;
+}
+
 /*.page-header {
 	line-height: 1.5em;
 }*/
