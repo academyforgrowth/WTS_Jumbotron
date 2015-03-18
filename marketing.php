@@ -64,10 +64,13 @@ include 'admin/language.php';
                         <p class="lead">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
                         <p>Call Us Today To Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
                         <hr />
-                        <h2 class="text-right"><span class="standout">Call <?php echo $phone; ?></span></h2>
+                        
                     </div>
                 </div>
                 <!-- HEADER ROW END -->
+                <div class="row">
+                    <h2 class="text-center"><span class="standout">Call <?php echo $phone; ?></span></h2>
+                </div>
             </div>
         </div>
     </header>
