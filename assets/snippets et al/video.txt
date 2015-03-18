@@ -1,1 +1,0 @@
-<script type="text/javascript" src="http://afg.evsuite.com/player/QUZHMi1Qb3VuZHMtTm8tQm9vay1Nb2JpbGUtNTEyeDI4OC5tcDQ=/?responsive=1&autoResponsive=1&profile=001-test-vid-for-new-build&container=evp-CBIL4HJ0ZG"></script><div id="evp-CBIL4HJ0ZG" data-role="evp-video" data-evp-id="QUZHMi1Qb3VuZHMtTm8tQm9vay1Nb2JpbGUtNTEyeDI4OC5tcDQ="></div>
