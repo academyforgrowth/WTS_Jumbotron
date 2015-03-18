@@ -35,7 +35,7 @@ include 'admin/language.php';
                                 <div class="vendor">
                                     <div class="container-video">
                                         <!-- VIDEO EMBED CODE START -->
-                                        <?php include ("admin/video.php"); ?>
+                                        <?php include ("admin/content_holders/video.php"); ?>
                                         <!-- VIDEO EMBED CODE END -->
                                     </div>
                                 </div>

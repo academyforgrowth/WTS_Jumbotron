@@ -1,7 +1,7 @@
 <?php  
 
 include 'admin/var.php';
-include 'admin/var.php';
+include 'admin/language.php';
 
 ?>
 

@@ -35,9 +35,7 @@ include 'admin/language.php';
                     </div>
                 </div>
 
-            </div>
-
-            <hr>        
+            </div>       
         </div>
     </section>
     <!-- END LEAD SECTION -->
@@ -135,12 +133,13 @@ include 'admin/language.php';
                         <p>The terms of this Privacy Policy may change from time to time. We will notify you of any material changes to this Privacy Policy by posting a notice on the homepage of the Site for a reasonable period of time after such changes are made, that this Privacy Policy has been updated, and by changing the "Effective" date at the top of this Privacy Policy. We encourage you to check this page periodically for any changes. Your continued use of the site and participation in following the posting of changes to these terms will mean you accept those changes.</p> 
                         <h4>Contacting Us:</h4>
                         <p>We value your opinions. If you have comments or questions about our Privacy Policy, please send them to:</p> 
-                        <address>
-                            Company Name
-                            Address Line 1
-                            Address Line 2
-                            County
-                            POSTCODE
+                        <address id="contact">
+                                <h5><?php echo $company_name; ?></h5>
+                                <?php echo $address_line1; ?><br />
+                                <?php echo $address_line2; ?><br />
+                                <?php echo $address_line3; ?><br />
+                                <?php echo $address_line4; ?><br />
+                                <?php echo $address_line5; ?><br />
                         </address>
                     </div>
                 </div>

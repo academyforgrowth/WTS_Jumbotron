@@ -45,10 +45,10 @@
     </script>
 
     <!-- Google Analytics Code -->
-    <?php include ("admin/analytics.php"); ?>
+    <?php include ("admin/content_holders/analytics.php"); ?>
 
     <!-- Google Remarketing Code -->
-    <?php include ("admin/remarketing.php"); ?>
+    <?php include ("admin/content_holders/remarketing.php"); ?>
         
     <!-- saved from url http://www.bootstraptor.com ==========================
     Don't remove this attribution!

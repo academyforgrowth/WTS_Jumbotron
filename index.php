@@ -25,7 +25,7 @@ include 'admin/language.php';
                 <!-- HEADER ROW START -->
                 <div class="row">
     
-                    <!--  VIDEO START-->
+                    <!--  VIDEO START -->
                     <div class="vertalign col-sm-7 col-md-offset-1 col-md-5">
                         <div style="margin-top: 0.67em;" class="hidden-xs panel panel-default" id="video-container">
                             <div class="panel-heading text-center ">
@@ -35,7 +35,7 @@ include 'admin/language.php';
                                 <div class="vendor">
                                     <div class="container-video">
                                         <!-- VIDEO EMBED CODE START -->
-                                        <?php include ("admin/video.php"); ?>
+                                        <?php include ("admin/content_holders/video.php"); ?>
                                         <!-- VIDEO EMBED CODE END -->
                                     </div>
                                 </div>
@@ -112,7 +112,7 @@ include 'admin/language.php';
                     
                     <div class="col-xs-12 col-md-6">
                         
-                        <!--FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL)-->
+                        <!-- FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL) -->
                         <?php include ("php/enquiry_form.php"); ?>
                         <!-- END FORM -->
 
