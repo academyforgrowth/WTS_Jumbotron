@@ -49,13 +49,9 @@ if(isset($_POST['email'])) {
   if(strlen($error_message) > 0) {
     died($error_message);
   }
-    $email_message = "Great News!\n
-	
-	A New Enquiry!
-	
-	A visitor to your Website That Sells has just completed the meeting request form.
-	
-	Details below...\n\n";
+    $email_message = "\nGreat News! A visitor to your Website That Sells has just completed the meeting request form.\n
+
+Details below...\n\n";
      
     function clean_string($string) {
       $bad = array("content-type","bcc:","to:","cc:","href");
