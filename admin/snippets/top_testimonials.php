@@ -11,7 +11,7 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <blockquote>
-                                    <p><?php echo $headline1; ?></p>
+                                    <p><?php echo $testimonial_headline1; ?></p>
                                     <small><?php echo $testimonial_client1; ?></small>
                                 </blockquote>
                             </div>
@@ -22,7 +22,7 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <blockquote>
-                                    <p><?php echo $headline2; ?></p>
+                                    <p><?php echo $testimonial_headline2; ?></p>
                                     <small><?php echo $testimonial_client2; ?></small>
                                 </blockquote>
                             </div>
@@ -36,7 +36,7 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <blockquote>
-                                    <p><?php echo $headline3; ?></p>
+                                    <p><?php echo $testimonial_headline3; ?></p>
                                     <small><?php echo $testimonial_client3; ?></small>
                                 </blockquote>
                             </div>
@@ -47,7 +47,7 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <blockquote>
-                                    <p><?php echo $headline4; ?></p>
+                                    <p>$testimonial_headline4</p>
                                     <small><?php echo $testimonial_client4; ?></small>
                                 </blockquote>
                             </div>

@@ -95,16 +95,28 @@ $expertise = "We also have specific expertise working with [list any specific in
  ******************************/
 
 $testimonial_client1 = "John Doe &ndash; company.com";
+$testimonial_headline1 = "";
+$testimonial1 = "";
 
 $testimonial_client2 = "John Doe &ndash; company.com";
+$testimonial_headline2 = "";
+$testimonial2 = "";
 
 $testimonial_client3 = "John Doe &ndash; company.com";
+$testimonial_headline3 = "";
+$testimonial3 = "";
 
 $testimonial_client4 = "John Doe &ndash; company.com";
+$testimonial_headline4 = "";
+$testimonial4 = "";
 
 $testimonial_client5 = "John Doe &ndash; company.com";
+$testimonial_headline5 = "";
+$testimonial5 = "";
 
 $testimonial_client6 = "John Doe &ndash; company.com";
+$testimonial_headline6 = "";
+$testimonial6 = "";
 
 
 /******************************
