@@ -1,1 +1,0 @@
-We also have specific expertise working with [list any specific industries that you have specialist expertise in]
