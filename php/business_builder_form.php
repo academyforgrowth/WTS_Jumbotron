@@ -35,5 +35,8 @@
                         <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
                             <input type="submit" style="margin-top: 6px;" class="form-control" />
                         </div>
+                        <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
+                            <p>We Respect Your E-mail Privacy.</p>
+                        </div>
                     </form>
                 </div>

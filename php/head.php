@@ -26,3 +26,7 @@
     <link href="assets/ico/apple-touch-icon-114-precomposed.png" sizes="114x114" rel="apple-touch-icon-precomposed" />
     <link href="assets/ico/apple-touch-icon-72-precomposed.png" sizes="72x72" rel="apple-touch-icon-precomposed" />
     <link href="assets/ico/apple-touch-icon-57-precomposed.png" rel="apple-touch-icon-precomposed" />
+
+    <!-- Google Analytics Embed Code Start -->
+    <?php include ("admin/content_holders/analytics.php"); ?>
+    <!-- Google Analytics Embed Code End -->

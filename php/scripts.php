@@ -44,9 +44,6 @@
         );
     </script>
 
-    <!-- Google Analytics Code -->
-    <?php include ("admin/content_holders/analytics.php"); ?>
-
     <!-- Google Remarketing Code -->
     <?php include ("admin/content_holders/remarketing.php"); ?>
         

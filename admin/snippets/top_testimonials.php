@@ -47,7 +47,7 @@
                         <div class="panel panel-default">
                             <div class="panel-body">
                                 <blockquote>
-                                    <p>$testimonial_headline4</p>
+                                    <p><?php echo $testimonial_headline4; ?></p>
                                     <small><?php echo $testimonial_client4; ?></small>
                                 </blockquote>
                             </div>
