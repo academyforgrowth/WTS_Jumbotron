@@ -93,7 +93,7 @@ include 'admin/language.php';
         <div class="container text-center"> 
             <h2 class="page-header">Solutions for EVERY BUSINESS, in EVERY circumstance</h2>
             <p class="lead">We are here to give you the edge over your rivals. Working closely with you, our experts can give your business solutions to achieve your goals. We work with ALL types of businesses with ALL types of owners.</p>
-            <p class="lead"><?php include ("admin/content_holders/expertise.php") ?></p>
+            <p class="lead"><?php echo $expertise; ?></p>
             <p class="lead">We love making lasting, rewarding working relationships with our clients, and we build these relationships with all types of owners and directors.</p>
 
             <div class="row">
