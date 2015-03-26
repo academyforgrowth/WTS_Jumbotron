@@ -32,7 +32,7 @@
                 <div class="col-sm-offset-1 col-sm-7">
                     <h3><?php echo $team_member1; ?></h3>
                     <p><?php echo $team_member1_title; ?></p>
-                    <p><?php include ("admin/content_holders/team/bio_1.php"); ?></p>
+                    <p><?php echo $team_member1_bio; ?></p>
                 </div>
             
             </div>
@@ -47,7 +47,7 @@
                 <div class="col-sm-offset-1 col-sm-7">
                     <h3><?php echo $team_member2; ?></h3>
                     <p><?php echo $team_member2_title; ?></p>
-                    <p><?php include ("admin/content_holders/team/bio_2.php"); ?></p>
+                    <p><?php echo $team_member2_bio; ?></p>
                 </div>
             
             </div>
@@ -62,7 +62,7 @@
                 <div class="col-sm-offset-1 col-sm-7">
                     <h3><?php echo $team_member3; ?></h3>
                     <p><?php echo $team_member3_title; ?></p>
-                    <p><?php include ("admin/content_holders/team/bio_3.php"); ?></p>
+                    <p><?php echo $team_member3_bio; ?></p>
                 </div>
             
             </div>
@@ -77,7 +77,7 @@
                 <div class="col-sm-offset-1 col-sm-7">
                     <h3><?php echo $team_member4; ?></h3>
                     <p><?php echo $team_member4_title; ?></p>
-                    <p><?php include ("admin/content_holders/team/bio_4.php"); ?></p>
+                    <p><?php echo $team_member4_bio; ?></p>
                 </div>
             
             </div>
@@ -92,7 +92,7 @@
                 <div class="col-sm-offset-1 col-sm-7">
                     <h3><?php echo $team_member5; ?></h3>
                     <p><?php echo $team_member5_title; ?></p>
-                    <p><?php include ("admin/content_holders/team/bio_5.php"); ?></p>
+                    <p><?php echo $team_member5_bio; ?></p>
                 </div>
             
             </div>
@@ -107,7 +107,7 @@
                 <div class="col-sm-offset-1 col-sm-7">
                     <h3><?php echo $team_member6; ?></h3>
                     <p><?php echo $team_member6_title; ?></p>
-                    <p><?php include ("admin/content_holders/team/bio_6.php"); ?></p>
+                    <p><?php echo $team_member6_bio; ?></p>
                 </div>
 
             </div>
