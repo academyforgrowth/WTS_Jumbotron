@@ -93,7 +93,7 @@ include 'admin/language.php';
 
                 <div class="col-xs-offset-3 col-xs-6 hidden-md hidden-lg">
                     <div class="row img-row">
-                        <img class="img-responsive img-mobile" src="images/logobig.png" alt="Logo" />
+                        <img class="img-responsive img-mobile" src="admin/img/logobig.png" alt="Logo" />
                     </div>
                 </div>
 
@@ -122,7 +122,7 @@ include 'admin/language.php';
                 <!-- / description-->
             
                 <div class="hidden-xs hidden-sm vertalign col-md-5">
-                    <img class="img-responsive" src="images/logobig.png" alt="" />
+                    <img class="img-responsive" src="admin/img/logobig.png" alt="" />
                 </div>
             
             </div>
