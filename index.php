@@ -22,11 +22,21 @@ include 'admin/language.php';
     
         <div class="jumbotron">
             <div class="container-fluid">
+                    <div class="row">
+                        <div style="text-align:center">
+                            <h1 class="headline"><?php echo $business; ?> in <?php echo $location; ?></h1>
+                        </div>
+                    </div>
+                    <div style="text-align:center">
+                        <h2 class="headline">GROW YOUR BUSINESS AND SAVE YOU MONEY</h2>
+                    </div>
+                    <hr>
+                </div>
                 <!-- HEADER ROW START -->
                 <div class="row">
     
                     <!--  VIDEO START -->
-                    <div class="vertalign col-sm-7 col-md-offset-1 col-md-5">
+                    <div class="col-sm-7 col-md-offset-1 col-md-5">
                         <div style="margin-top: 0.67em;" class="hidden-xs panel panel-default" id="video-container">
                             <div class="panel-heading text-center ">
                                 <h4 class="text-success">JUST FOUR MINUTES OF YOUR TIME &amp; YOU WILL KNOW WHY THEY CALL US <span style="font-weight: bold;">"THE SUPER <?php echo $business_4; ?>"</span></h4>
@@ -58,18 +68,32 @@ include 'admin/language.php';
                     <!-- VIDEO END -->
 
                     <!-- HEADLINE -->
-                    <div class="vertalign text-right col-xs-12 col-sm-5 col-md-offset-1 col-md-4">
-                        <h2 class="headline">DISCOVER THE <?php echo $business_4; ?> WHO CAN GROW YOUR BUSINESS AND SAVE YOU MONEY</h2>
-                        <hr />
-                        <p class="lead">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
-                        <p>Call Us Today To Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
-                        <hr />
+                    <div class="text-right col-xs-12 col-sm-5 col-md-offset-1 col-md-4">
+
+                        <div class="form_section">
+                            <h3 class="text-center" style="color:#b94a48">Arrange Your Free Meeting Now</h3>
+                            <p class="text-center" style="color:#000000; font-size:16px;">Simply fill out the form below to request a FREE, no-obligation meeting - and find out about our unique approach to accounting.</p>
+                            <!-- FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL) -->
+                            <?php include ("php/enquiry_form.php"); ?>
+                            <!-- END FORM -->
+                        </div>
+                        
+                        <!-- <hr />
+                        <p class="lead" style="text-align:center">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
+                        <p style="text-align:center">Call Us Today To Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
+                        <hr /> -->
                         
                     </div>
                 </div>
                 <!-- HEADER ROW END -->
                 <div class="row">
-                    <h2 class="text-center"><span class="standout">Call <?php echo $phone; ?></span></h2>
+                    <div class="col-md-offset-1 col-md-5">
+                        <h2 class="text-center"><span class="standout">Call <?php echo $phone; ?></span></h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="lead" style="text-align:center">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
+                        <p style="text-align:center">Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
+                    </div>
                 </div>
             </div>
         </div>
