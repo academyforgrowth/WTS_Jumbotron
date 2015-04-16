@@ -69,10 +69,18 @@ include 'admin/language.php';
 
                     <!-- HEADLINE -->
                     <div class="text-right col-xs-12 col-sm-5 col-md-offset-1 col-md-4">
-                        <!-- <h2 class="headline">DISCOVER THE <?php echo $business_4; ?> WHO CAN GROW YOUR BUSINESS AND SAVE YOU MONEY</h2> -->
+
+                        <div class="form_section">
+                            <h3 class="text-center" style="color:#b94a48">Arrange Your Free Meeting Now</h3>
+                            <p class="text-center" style="color:#000000; font-size:16px;">Simply fill out the form below to request a FREE, no-obligation meeting - and find out about our unique approach to accounting.</p>
+                            <!-- FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL) -->
+                            <?php include ("php/enquiry_form.php"); ?>
+                            <!-- END FORM -->
+                        </div>
+                        
                         <hr />
-                        <p class="lead">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
-                        <p>Call Us Today To Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
+                        <p class="lead" style="text-align:center">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
+                        <p style="text-align:center">Call Us Today To Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
                         <hr />
                         
                     </div>
