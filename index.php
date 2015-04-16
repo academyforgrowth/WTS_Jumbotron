@@ -78,16 +78,22 @@ include 'admin/language.php';
                             <!-- END FORM -->
                         </div>
                         
-                        <hr />
+                        <!-- <hr />
                         <p class="lead" style="text-align:center">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
                         <p style="text-align:center">Call Us Today To Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
-                        <hr />
+                        <hr /> -->
                         
                     </div>
                 </div>
                 <!-- HEADER ROW END -->
                 <div class="row">
-                    <h2 class="text-center"><span class="standout">Call <?php echo $phone; ?></span></h2>
+                    <div class="col-md-offset-1 col-md-5">
+                        <h2 class="text-center"><span class="standout">Call <?php echo $phone; ?></span></h2>
+                    </div>
+                    <div class="col-md-6">
+                        <p class="lead" style="text-align:center">Grow. Save Tax. Increase Profits. <em>Relax...</em></p>
+                        <p style="text-align:center">Find Out How We Can Make A <strong>Real Difference to Your Business</strong></p>
+                    </div>
                 </div>
             </div>
         </div>

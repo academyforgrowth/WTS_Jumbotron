@@ -753,9 +753,9 @@ however must be careful not to clash with other classes and affect layout */
 .form_section {	
 	background:#f5f5f5;
 	border:2px solid #ccc;
-	margin: 40px 0 40px 0;
+	margin: 15px 0 40px 0;
 	padding-top:10px;
-	min-height:450px;
+	min-height:481px;
 	width:100%;
 	min-width:100%;
 }	
