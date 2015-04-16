@@ -25,7 +25,7 @@ include 'admin/language.php';
                 <!-- HEADER ROW START -->
                 <div class="row">
     
-                    <!--  VIDEO START-->
+                    <!--  VIDEO START -->
                     <div class="vertalign col-sm-7 col-md-offset-1 col-md-5">
                         <div style="margin-top: 0.67em;" class="hidden-xs panel panel-default" id="video-container">
                             <div class="panel-heading text-center ">
@@ -47,7 +47,7 @@ include 'admin/language.php';
                         <div class="container">
                             <div class="row">
                                 <div class=" col-xs-12 col-sm-9 col-md-9 col-lg-9">
-                                    <p style="padding-top: 7px;" class="lead text-danger text-center"><strong>DON'T TALK TO ANOTHER <?php echo $business_4; ?> UNTIL YOU'VE SEEN WHAT A SUPER <?php echo $business_4; ?> CAN DO FOR YOU!</strong></p>
+                                    <p style="padding-top: 7px;" class="lead text-danger text-center"><strong>DON'T TALK TO ANOTHER <?php echo $business_4; ?> UNTIL YOU'VE SEEN WHAT A SUPER <?php echo $business_4 ; ?> CAN DO FOR YOU!</strong></p>
                                 </div>
                                 <div class=" text-center col-xs-12 col-sm-3 col-md-3 col-lg-3">
                                     <a href="#" class="btn btn-danger btn-block btn-md">WATCH OUR VIDEO</a>
@@ -112,7 +112,7 @@ include 'admin/language.php';
                     
                     <div class="col-xs-12 col-md-6">
                         
-                        <!--FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL)-->
+                        <!-- FORM: INPUTS NAME, LAST NAME, Company Name, EMAIL ADDRESS PHONE NUMBER (OPTIONAL) -->
                         <?php include ("php/enquiry_form.php"); ?>
                         <!-- END FORM -->
 
@@ -148,10 +148,9 @@ include 'admin/language.php';
                 
                 <div class="row">
                     <div class="vertalign text-left col-xs-12 col-md-6">
-                        <p class="lead"><strong><?php echo $company_name; ?> is the leading provider of accounting and tax-planning services in <?php echo $location; ?>.</strong> We do everything that you would expect your <?php echo $business_3; ?> to do, <em>but we also do so much more...</em></p>
+                        <p class="lead"><strong><?php echo $company_name; ?> is the leading provider of <?php echo $business_2; ?> and tax-planning services in <?php echo $location; ?>.</strong> We do everything that you would expect your <?php echo $business_3; ?> to do, <em>but we also do so much more...</em></p>
                         <p class="lead">We work with you to establish <strong>your goals</strong> for <strong>your business</strong> - and help plan your financial affairs accordingly. All of the compliance services that we offer are fully managed by our expert team, taking the stress away from you.</p>
                         <p class="lead">Take advantage of our compliance, time-saving and value-added services and focus your valuable time and resources on doing what you do best: <strong>your business.</strong></p>
-        
                         <div class="row">
                             <div class="text-center">
                                 <a class="btn btn-info btn-lg more" href="how-we-help.php"><em class="icon-info-sign"></em> HOW WE HELP</a>
@@ -162,14 +161,14 @@ include 'admin/language.php';
                     <!-- / description-->
         
                     <div class="vertalign col-xs-12 col-md-6">
-                        <img alt="" src="images/logobig.png" class="img-responsive hidden-xs hidden-sm" />
+                        <img alt="" src="admin/img/logobig.png" class="img-responsive hidden-xs hidden-sm" />
                     </div>
                 </div>
             </div>
             <!-- END FEATURE 1 -->
 
             <hr />
-            <h2 class="text-center">WE'RE NOT LIKE THE OTHER <?php echo $business; ?></h2>
+            <h2 class="text-center uppercase">WE'RE NOT LIKE THE OTHER <?php echo $business; ?></h2>
             
             <!-- FEATURE 2 -->
             <div id="marketing" class="row">
@@ -181,7 +180,7 @@ include 'admin/language.php';
                 <div class="vertalign text-left col-xs-12 col-md-6">
                     <hr />
                     <p class="lead">The frustrations felt by business owners are often the same. Are you tired of unpredictable fees? Do you find it difficult to get a straight answer? Are your calls not being returned (and when they are, they're returned late)? Do you feel your <?php echo $business_3; ?> should be doing more to hold onto as much of your hard-earned profits as possible?</p>
-                    <p class="lead">Any <?php echo $business_3; ?> can produce a decent set of accounts. But very few have the skills to create <em>a relationship where the client really sees their <?php echo $business_3; ?> as a true asset to their business</em>. Because, a truly great <?php echo $business_3; ?>, <strong>A SUPER <?php echo $business_4; ?>,</strong> does much more than just provide <?php echo $business_2; ?> services.</p>
+                    <p class="lead">Any <?php echo $business_4; ?> can produce a decent set of accounts. But very few have the skills to create <em>a relationship where the client really sees their <?php echo $business_3; ?> as a true asset to their business</em>. Because, a truly great <?php echo $business_3; ?>, <strong>A SUPER <?php echo $business_4; ?>,</strong> does much more than just provide <?php echo $business_2; ?> services.</p>
                     <p class="lead"><strong>A SUPER <?php echo $business_4; ?></strong> is one that gives your business the advantage it needs and demands.</p>
         
                     <div class="row">
@@ -250,13 +249,13 @@ include 'admin/language.php';
     </section>
 
 
-    <!-- FOOTER START -->
+    <!-- FOOTER -->
     <?php include ("php/footer.php"); ?>
-    <!-- END FOOTER -->
-
+    <!-- FOOTER END -->
+        
     <!-- SCRIPTS START -->
     <?php include ("php/scripts.php"); ?>
     <!-- SCRIPTS END -->
-
+    
 </body>
 </html>
