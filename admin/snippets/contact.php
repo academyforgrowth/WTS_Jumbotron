@@ -111,7 +111,7 @@
                     <address class="office-info">
                         <h3>'.$location2.'</h3>
                         <h4>'.$company_name.'</h4>
-                        <p>'.$address_line1.'<br />
+                        <p>'.$address2_line1.'<br />
                                 '.$address2_line2.'<br />
                                 '.$address2_line3.'<br />
                                 '.$address2_line4.'<br />
@@ -159,7 +159,7 @@
                     <address class="office-info">
                         <h3>'.$location2.'</h3>
                         <h4>'.$company_name.'</h4>
-                        <p>'.$address_line1.'<br />
+                        <p>'.$address2_line1.'<br />
                                 '.$address2_line2.'<br />
                                 '.$address2_line3.'<br />
                                 '.$address2_line4.'<br />
@@ -198,7 +198,7 @@
                     <address class="office-info">
                         <h3>'.$location3.'</h3>
                         <h4>'.$company_name.'</h4>
-                        <p>'.$address_line1.'<br />
+                        <p>'.$address3_line1.'<br />
                                 '.$address3_line2.'<br />
                                 '.$address3_line3.'<br />
                                 '.$address3_line4.'<br />

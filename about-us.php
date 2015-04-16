@@ -72,7 +72,7 @@ include 'admin/language.php';
             <div class="row">
                 <div class="col-12 col-lg-12 text-center">
                     <div class="page-header">
-                        <h1>Accounting &amp; Tax Services for Small Business in Location</h1>
+                        <h1>Accounting &amp; Tax Services for Small Business in <?php echo $location; ?></h1>
                         <h2><strong><span class="text-info">Proven Solutions</span></strong> for the modern small business</h2>
                         <p class="lead">We redefine what it means to be an accountant. Yes, we manage your books, and help take care of your tax burden, <strong>but we do more...</strong>  
                         <p class="lead">Here is a little more about us, and the lengths we go to <b>build profitable, long-term relationships with our clients</b></p>
@@ -114,7 +114,7 @@ include 'admin/language.php';
                 
                     <div class="row">
                         <div class="col-md-6">
-                            <a href="services.php" class="btn btn-info btn-block btn-lg"><i class="icon-info-sign"></i> OUR SERVICES</a>
+                            <a href="how-we-help.php" class="btn btn-info btn-block btn-lg"><i class="icon-info-sign"></i> OUR SERVICES</a>
                         </div>
                     </div>
                 </div>
