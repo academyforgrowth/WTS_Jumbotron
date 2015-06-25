@@ -36,8 +36,8 @@ include 'admin/language.php';
                 <div class="row">
     
                     <!--  VIDEO START -->
-                    <div class="col-sm-7 col-md-offset-1 col-md-5">
-                        <div style="margin-top: 0.67em;" class="hidden-xs panel panel-default" id="video-container">
+                    <div class="col-xs-12 col-sm-7 col-md-offset-1 col-md-5">
+                        <div style="margin-top: 0.67em;" class="panel panel-default" id="video-container">
                             <div class="panel-heading text-center ">
                                 <h4 class="text-success">JUST FOUR MINUTES OF YOUR TIME &amp; YOU WILL KNOW WHY THEY CALL US <span style="font-weight: bold;">"THE SUPER <?php echo $business_4; ?>"</span></h4>
                             </div>
@@ -53,7 +53,7 @@ include 'admin/language.php';
                         </div>
                     </div>
 
-                    <div style="margin-top: 0px; padding-top: 30px;" class="well visible-xs">
+                    <!-- <div style="margin-top: 0px; padding-top: 30px;" class="well visible-xs">
                         <div class="container">
                             <div class="row">
                                 <div class=" col-xs-12 col-sm-9 col-md-9 col-lg-9">
@@ -64,7 +64,7 @@ include 'admin/language.php';
                                 </div>
                             </div>
                         </div>
-                    </div>
+                    </div> -->
                     <!-- VIDEO END -->
 
                     <!-- HEADLINE -->
