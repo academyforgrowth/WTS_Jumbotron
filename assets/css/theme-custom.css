@@ -760,6 +760,17 @@ however must be careful not to clash with other classes and affect layout */
 	min-width:100%;
 }	
 
+
+@media (max-width: 768px){
+	.form-horizontal button{
+		display: block;
+		margin: 0 auto;
+		margin-bottom: 1em;
+	}
+}
+
+
+
 @media (max-width: 768px){
     ul.navbar-right a {
     	display: block;
@@ -769,8 +780,19 @@ however must be careful not to clash with other classes and affect layout */
 }
 
 @media (max-width: 768px){
+	ul.navbar-right a.tel{
+	    margin-top: -1em;
+	}
+}
+
+@media (max-width: 768px){
 	ul.navbar-right a.navbar-btn {
+	    margin-top: -1em;
+	    margin-bottom: 1em;
 	    margin-right: 1em;
 	    margin-left: 1em;
 	}
 }
+
+
+

@@ -14,7 +14,7 @@ include 'admin/language.php';
 <body>
         
     <!-- NAV START -->
-    <?php include ("php/newnav.php"); ?>
+    <?php include ("php/nav.php"); ?>
     <!-- NAV END -->
 
     <!-- HEADER START -->

@@ -22,8 +22,10 @@
                                 <br />
                                 <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-3 col-md-6 text-center">
                                 </div>
-                                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-4 col-md-4 text-center">
-                                    <button class="btn btn-lg btn-danger" style="margin-top: 6px;" type="submit">Submit</button>
-                                </div>
+                              <div class="row">
+                                                <div class="col-xs-12 col-sm-offset-2 col-sm-8 col-md-offset-4 col-md-4 text-center">
+                                      <button class="btn btn-lg btn-danger" style="margin-top: 6px;" type="submit">Submit</button>
+                                  </div>
+                              </div>
                             </div>
                         </form>
