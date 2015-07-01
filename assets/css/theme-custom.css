@@ -759,3 +759,18 @@ however must be careful not to clash with other classes and affect layout */
 	width:100%;
 	min-width:100%;
 }	
+
+@media (max-width: 768px){
+    ul.navbar-right a {
+    	display: block;
+        margin: 0 auto;
+        text-align: center;
+    }
+}
+
+@media (max-width: 768px){
+	ul.navbar-right a.navbar-btn {
+	    margin-right: 1em;
+	    margin-left: 1em;
+	}
+}

@@ -1,8 +1,8 @@
-    <nav role="navigation" class="navbar navbar-default navbar-fixed-top " id="topnav">
+    <nav role="navigation" class="navbar navbar-default navbar-fixed-top" id="topnav">
         <div class="container-fluid">
             <!-- Brand and toggle get grouped for better mobile display -->
             <div class="navbar-header">
-                <button data-target=".navbar-ex1-collapse" data-toggle="collapse" class="navbar-toggle" type="button">
+                <button data-target="#main_nav" data-toggle="collapse" class="navbar-toggle" type="button">
                     <span class="sr-only">Toggle navigation</span>
                     <span class="icon-bar"></span>
                     <span class="icon-bar"></span>
@@ -11,11 +11,12 @@
                 <a href="index.php" class="navbar-brand"><img alt="" src="admin/img/logo.png" /></a>
             </div>
             <!-- Collect the nav links, forms, and other content for toggling -->
-            <div class="collapse navbar-collapse navbar-ex1-collapse">
+            <div class="collapse navbar-collapse navbar-ex1-collapse" id="main_nav">
                 <ul class="nav navbar-nav">
                     <!-- ABOUT -->
                     <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">About Us<span class="caret"></span></a>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">
+                            About Us<span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
                             <li><a href="about-us.php">About Us</a></li>
                             <li><a href="about-us.php#ethos">Our Company</a></li>
@@ -25,7 +26,7 @@
                     </li>
                     <!-- SERVICES -->
                     <li class="dropdown">
-                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">Services <span class="caret"></span></a>
+                        <a data-toggle="dropdown" class="dropdown-toggle" href="#">How We Help <span class="caret"></span></a>
                         <ul role="menu" class="dropdown-menu">
                             <li><a href="how-we-help.php">Services</a></li>
                             <li><a href="how-we-help.php#compliance">Compliance</a></li>
